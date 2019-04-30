@@ -1,0 +1,45 @@
+{
+  "name": "@curefit/flash-models",
+  "version": "1.0.0",
+  "description": "A HTTP Client to hit flash servers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curefit/flash-models.git"
+  },
+  "author": "AG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curefit/flash-models/issues"
+  },
+  "homepage": "https://github.com/curefit/flash-models#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-barrels": "rm -rf dist; barrelsby --delete -e node_modules/*",
+    "build": "tsc",
+    "tslint": "tslint --project tsconfig.json",
+    "tslint-fix": "tslint --project tsconfig.json --fix",
+    "prepublish": "tsc",
+    "postversion": "git push origin master && git push origin master --tags && npm publish"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.1.23",
+    "@types/node": "^11.11.7",
+    "barrelsby": "^1.0.2",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@curefit/base": "^1.0.1",
+    "@curefit/base-common": "^1.0.1",
+    "@curefit/delivery-models": "^1.1.0",
+    "@curefit/eat-common": "^1.3.21",
+    "@curefit/flash-common": "^1.0.4",
+    "@curefit/mongo-utils": "^1.0.1",
+    "@curefit/schema-mongo": "^1.0.2",
+    "@curefit/shipment-client": "^1.0.1",
+    "@curefit/workflow-common": "^0.0.4",
+    "uuid": "^3.2.1"
+  }
+}
