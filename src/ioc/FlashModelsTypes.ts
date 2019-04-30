@@ -9,9 +9,6 @@ export const FLASH_MODELS_TYPES = {
     LotPrimarySchema: "flash-models:LotPrimarySchema",
     LotSecondarySchema: "flash-models:LotSecondarySchema",
 
-    FlashService: "flash-models:FlashService",
-    FlashBackendConf: "flash-models:FlashBackendConf",
-
     PilotReadonlyDao: "flash-models:PilotReadonlyDao",
     PilotReadwriteDao: "flash-models:PilotReadwriteDao",
     PilotSchema: "flash-models:PilotSchema",
