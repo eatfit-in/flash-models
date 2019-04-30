@@ -1,7 +1,7 @@
 import { PilotStatuses } from "@curefit/eat-common"
 import { PilotConnectionStatuses } from "@curefit/flash-common"
 import { Schema } from "mongoose"
-import { WorkflowDetailsSchema } from "@curefit/shipment-client"
+import { WorkflowDetailsSchema } from "@curefit/shipment-models"
 import { LatLongSchema } from "@curefit/schema-mongo"
 
 const LastKnownDelaySchema = new Schema({
