@@ -38,7 +38,7 @@
     "@curefit/flash-common": "^1.0.4",
     "@curefit/mongo-utils": "^1.0.1",
     "@curefit/schema-mongo": "^1.0.2",
-    "@curefit/shipment-models": "^1.1.0",
+    "@curefit/shipment-models": "^1.4.0",
     "@curefit/workflow-common": "^0.0.4",
     "uuid": "^3.2.1"
   }
