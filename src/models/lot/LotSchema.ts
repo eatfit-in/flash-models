@@ -45,6 +45,14 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 required: true,
                 type: String
             },
+            estimatedReachTime: {
+                type: Date,
+                required: false
+            },
+            estimatedDeliveryEndTime: {
+                type: Date,
+                required: false
+            },
             shipments: {
                 required: true,
                 type: [ShipmentSchema],
@@ -57,6 +65,14 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
         }, { _id: false })
 
         const DeliveryDetailsSchema = new Schema({
+            kitchenDepartureTime: {
+                required: false,
+                type: Date
+            },
+            estimatedKitchenDepartureTime: {
+                required: false,
+                type: Date
+            },
             startTime: {
                 required: true,
                 type: Date
@@ -70,6 +86,14 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 type: Date
             },
             actualEndTime: {
+                required: false,
+                type: Date
+            },
+            estimatedEndTime: {
+                required: false,
+                type: Date
+            },
+            originalEstimatedEndTime: {
                 required: false,
                 type: Date
             }
@@ -148,6 +172,14 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 required: false
             },
             delayInSecs: {
+                type: Number,
+                required: false
+            },
+            estimatedDelayInSecs: {
+                type: Number,
+                required: false
+            },
+            estimatedLastDeliveryDelayInSeconds: {
                 type: Number,
                 required: false
             },
