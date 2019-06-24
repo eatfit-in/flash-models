@@ -53,6 +53,14 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 type: Date,
                 required: false
             },
+            legDistance: {
+                type: Number,
+                required: false
+            },
+            totalDistance: {
+                type: Number,
+                required: false
+            },
             shipments: {
                 required: true,
                 type: [ShipmentSchema],
@@ -92,6 +100,10 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
             estimatedEndTime: {
                 required: false,
                 type: Date
+            },
+            tripDistance: {
+                type: Number,
+                required: false
             },
             originalEstimatedEndTime: {
                 required: false,
