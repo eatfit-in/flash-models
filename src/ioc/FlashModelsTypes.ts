@@ -19,4 +19,7 @@ export const FLASH_MODELS_TYPES = {
 
     PilotStateHistorySchema: "flash-models:PilotStateHistorySchema",
 
+    HistoricalETAReadonlyDao: "flash-models:HistoricalETAReadonlyDao",
+    HistoricalETAReadwriteDao: "flash-models:HistoricalETAReadwriteDao",
+    HistoricalETASchema: "flash-models:HistoricalETASchema"
 }
