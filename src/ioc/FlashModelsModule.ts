@@ -19,6 +19,10 @@ import { PilotReadWriteDaoMongoImpl } from "../daos/PilotReadWriteDaoMongoImpl"
 import { PilotReadonlyDaoMongoImpl } from "../daos/PilotReadonlyDaoMongoImpl"
 import { PilotShiftReadWriteDaoMongoImpl } from "../daos/PilotShiftReadWriteDaoMongoImpl"
 import { PilotShiftReadonlyDaoMongoImpl } from "../daos/PilotShiftReadonlyDaoMongoImpl"
+import { HistoricalETASchema } from "../models/HistoricalETA/HistoricalETASchema"
+import { IHistoricalETAReadonlyDao, IHistoricalETAReadWriteDao } from "../daos/IHistoricalETADao"
+import { HistoricalETAReadWriteDaoMongoImpl } from "../daos/HistoricalETAReadWriteDaoMongoImpl"
+import { HistoricalETAReadonlyDaoMongoImpl } from "../daos/HistoricalETAReadonlyDaoMongoImpl"
 
 export function FlashModelsModule(kernel: Inversify.Container): ContainerModule {
     return new Inversify.ContainerModule((bind: Inversify.interfaces.Bind) => {
@@ -32,6 +36,10 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
         bind<PilotSchema>(FLASH_MODELS_TYPES.PilotSchema).to(PilotSchema).inSingletonScope()
         bind<IPilotReadWriteDao>(FLASH_MODELS_TYPES.PilotReadwriteDao).to(PilotReadWriteDaoMongoImpl).inSingletonScope()
         bind<IPilotReadonlyDao>(FLASH_MODELS_TYPES.PilotReadonlyDao).to(PilotReadonlyDaoMongoImpl).inSingletonScope()
+
+        bind<HistoricalETASchema>(FLASH_MODELS_TYPES.HistoricalETASchema).to(HistoricalETASchema).inSingletonScope()
+        bind<IHistoricalETAReadWriteDao>(FLASH_MODELS_TYPES.HistoricalETAReadwriteDao).to(HistoricalETAReadWriteDaoMongoImpl).inSingletonScope()
+        bind<IHistoricalETAReadonlyDao>(FLASH_MODELS_TYPES.HistoricalETAReadonlyDao).to(HistoricalETAReadonlyDaoMongoImpl).inSingletonScope()
 
         bind<PilotStateSchema>(FLASH_MODELS_TYPES.PilotStateSchema).to(PilotStateSchema).inSingletonScope()
         bind<IPilotStateReadWriteDao>(FLASH_MODELS_TYPES.PilotStateReadwriteDao).to(PilotStateReadWriteDaoMongoImpl).inSingletonScope()
