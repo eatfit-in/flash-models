@@ -49,11 +49,11 @@ export class DelayModeActionSchema extends MultiMongooseSchema<DelayModeActionMo
             },
             startTime: {
                 type: Date,
-                required: true
+                required: false
             },
             endTime: {
                 type: Date,
-                required: true
+                required: false
             }
         }
     }
