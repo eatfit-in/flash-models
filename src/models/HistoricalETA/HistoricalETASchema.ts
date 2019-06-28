@@ -32,7 +32,7 @@ export class HistoricalETASchema extends MultiMongooseSchema<HistoricalETAModel>
                 type: Date,
                 required: true
             },
-            HistoricalETAs: {
+            historicalETAs: {
                 type: [Date],
                 required: true
             }
