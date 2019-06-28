@@ -31,6 +31,12 @@ export class DelayModeActionSchema extends MultiMongooseSchema<DelayModeActionMo
                 index: true,
                 enum: DelayModes
             },
+            newDelayMode: {
+                type: String,
+                required: true,
+                index: true,
+                enum: DelayModes
+            },
             delayModeReason: {
                 type: String,
                 required: true,
