@@ -3,9 +3,9 @@ export const FLASH_MODELS_TYPES = {
     PilotStateReadwriteDao: "flash-models:PilotStateReadwriteDao",
     PilotStateSchema: "flash-models:PilotStateSchema",
 
-    DelayModeActionReadonlyDao: "flash-models:DelayModeActionStateReadonlyDao",
-    DelayModeActionReadwriteDao: "flash-models:DelayModeActionStateReadwriteDao",
-    DelayModeActionSchema: "flash-models:DelayModeActionStateSchema",
+    DelayModeActionReadonlyDao: "flash-models:DelayModeActionReadonlyDao",
+    DelayModeActionReadwriteDao: "flash-models:DelayModeActionReadwriteDao",
+    DelayModeActionSchema: "flash-models:DelayModeActionSchema",
 
     LotReadonlyDao: "flash-models:LotReadonlyDao",
     LotReadonlySecondaryDao: "flash-models:LotReadonlySecondaryDao",
