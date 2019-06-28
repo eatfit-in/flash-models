@@ -23,6 +23,10 @@ import { HistoricalETASchema } from "../models/HistoricalETA/HistoricalETASchema
 import { IHistoricalETAReadonlyDao, IHistoricalETAReadWriteDao } from "../daos/IHistoricalETADao"
 import { HistoricalETAReadWriteDaoMongoImpl } from "../daos/HistoricalETAReadWriteDaoMongoImpl"
 import { HistoricalETAReadonlyDaoMongoImpl } from "../daos/HistoricalETAReadonlyDaoMongoImpl"
+import { DelayModeActionSchema } from "../models/DelayMode/DelayModeActionSchema"
+import { DelayModeActionReadWriteDaoMongoImpl } from "../daos/DelayModeActionReadWriteDaoMongoImpl"
+import { IDelayModeActionReadonlyDao, IDelayModeActionReadWriteDao } from "../daos/IDelayModeActionDao"
+import { DelayModeActionReadonlyDaoMongoImpl } from "../daos/DelayModeActionReadonlyDaoMongoImpl"
 
 export function FlashModelsModule(kernel: Inversify.Container): ContainerModule {
     return new Inversify.ContainerModule((bind: Inversify.interfaces.Bind) => {
@@ -40,6 +44,10 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
         bind<HistoricalETASchema>(FLASH_MODELS_TYPES.HistoricalETASchema).to(HistoricalETASchema).inSingletonScope()
         bind<IHistoricalETAReadWriteDao>(FLASH_MODELS_TYPES.HistoricalETAReadwriteDao).to(HistoricalETAReadWriteDaoMongoImpl).inSingletonScope()
         bind<IHistoricalETAReadonlyDao>(FLASH_MODELS_TYPES.HistoricalETAReadonlyDao).to(HistoricalETAReadonlyDaoMongoImpl).inSingletonScope()
+
+        bind<DelayModeActionSchema>(FLASH_MODELS_TYPES.DelayModeActionSchema).to(DelayModeActionSchema).inSingletonScope()
+        bind<IDelayModeActionReadWriteDao>(FLASH_MODELS_TYPES.DelayModeActionReadwriteDao).to(DelayModeActionReadWriteDaoMongoImpl).inSingletonScope()
+        bind<IDelayModeActionReadonlyDao>(FLASH_MODELS_TYPES.DelayModeActionReadonlyDao).to(DelayModeActionReadonlyDaoMongoImpl).inSingletonScope()
 
         bind<PilotStateSchema>(FLASH_MODELS_TYPES.PilotStateSchema).to(PilotStateSchema).inSingletonScope()
         bind<IPilotStateReadWriteDao>(FLASH_MODELS_TYPES.PilotStateReadwriteDao).to(PilotStateReadWriteDaoMongoImpl).inSingletonScope()
