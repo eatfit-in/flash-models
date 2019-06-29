@@ -1,10 +1,14 @@
-import { MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
+import { MONGO_TYPES, MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
 import { DelayModeActionModel } from "./DelayModeActionModel"
 import { DelayModeReasons, DelayModes, MenuTypes } from "@curefit/eat-common"
+import { inject, injectable } from "inversify"
 
+@injectable()
 export class DelayModeActionSchema extends MultiMongooseSchema<DelayModeActionModel> {
-    constructor(mongooseAccess: MultiMongooseAccess, readPreference?: string) {
-        super(mongooseAccess, "DelayModeAction", "DEFAULT", readPreference)
+    constructor(
+        @inject(MONGO_TYPES.MultiMongooseAccess) mongooseAccess: MultiMongooseAccess
+    ) {
+        super(mongooseAccess, "DelayModeAction", "DEFAULT")
     }
     protected schema() {
 
