@@ -13,9 +13,9 @@ import { DelayModeActionSchema } from "../models/DelayMode/DelayModeActionSchema
 @injectable()
 export class DelayModeActionReadWriteDaoMongoImpl extends MongoReadWriteDao<DelayModeActionModel, DelayModeAction> implements IDelayModeActionReadWriteDao {
     constructor(
-        @inject(FLASH_MODELS_TYPES.DelayModeActionSchema) DelayModeActionSchema: DelayModeActionSchema,
+        @inject(FLASH_MODELS_TYPES.DelayModeActionSchema) delayModeActionSchema: DelayModeActionSchema,
         @inject(FLASH_MODELS_TYPES.DelayModeActionReadonlyDao) readonlyDao: DelayModeActionReadonlyDaoMongoImpl,
         @inject(BASE_TYPES.ILogger) logger: ILogger) {
-        super(DelayModeActionSchema.mongooseModel, readonlyDao, logger)
+        super(delayModeActionSchema.mongooseModel, readonlyDao, logger)
     }
 }
