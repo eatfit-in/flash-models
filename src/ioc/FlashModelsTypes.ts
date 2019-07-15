@@ -25,5 +25,9 @@ export const FLASH_MODELS_TYPES = {
 
     HistoricalETAReadonlyDao: "flash-models:HistoricalETAReadonlyDao",
     HistoricalETAReadwriteDao: "flash-models:HistoricalETAReadwriteDao",
-    HistoricalETASchema: "flash-models:HistoricalETASchema"
+    HistoricalETASchema: "flash-models:HistoricalETASchema",
+
+    AuditTrailReadonlyDao: "flash-models:AuditTrailReadonlyDao",
+    AuditTrailReadwriteDao: "flash-models:AuditTrailReadwriteDao",
+    AuditTrailSchema: "flash-models:AuditTrailSchema"
 }

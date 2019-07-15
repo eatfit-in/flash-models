@@ -27,6 +27,10 @@ import { DelayModeActionSchema } from "../models/DelayMode/DelayModeActionSchema
 import { DelayModeActionReadWriteDaoMongoImpl } from "../daos/DelayModeActionReadWriteDaoMongoImpl"
 import { IDelayModeActionReadonlyDao, IDelayModeActionReadWriteDao } from "../daos/IDelayModeActionDao"
 import { DelayModeActionReadonlyDaoMongoImpl } from "../daos/DelayModeActionReadonlyDaoMongoImpl"
+import AuditTrailSchema from "../models/auditTrail/AuditTrailSchema"
+import { IAuditTrailReadWriteDao, IAuditTrailReadonlyDao } from "../daos/IAuditTrailDao"
+import AuditTrailReadWriteDaoMongoImpl from "../daos/AuditTrailReadWriteDaoMongoImpl"
+import AuditTrailReadonlyDaoMongoImpl from "../daos/AuditTrailReadonlyDaoMongoImpl"
 
 export function FlashModelsModule(kernel: Inversify.Container): ContainerModule {
     return new Inversify.ContainerModule((bind: Inversify.interfaces.Bind) => {
@@ -44,6 +48,10 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
         bind<HistoricalETASchema>(FLASH_MODELS_TYPES.HistoricalETASchema).to(HistoricalETASchema).inSingletonScope()
         bind<IHistoricalETAReadWriteDao>(FLASH_MODELS_TYPES.HistoricalETAReadwriteDao).to(HistoricalETAReadWriteDaoMongoImpl).inSingletonScope()
         bind<IHistoricalETAReadonlyDao>(FLASH_MODELS_TYPES.HistoricalETAReadonlyDao).to(HistoricalETAReadonlyDaoMongoImpl).inSingletonScope()
+
+        bind<AuditTrailSchema>(FLASH_MODELS_TYPES.AuditTrailSchema).to(AuditTrailSchema).inSingletonScope()
+        bind<IAuditTrailReadWriteDao>(FLASH_MODELS_TYPES.AuditTrailReadwriteDao).to(AuditTrailReadWriteDaoMongoImpl).inSingletonScope()
+        bind<IAuditTrailReadonlyDao>(FLASH_MODELS_TYPES.AuditTrailReadonlyDao).to(AuditTrailReadonlyDaoMongoImpl).inSingletonScope()
 
         bind<DelayModeActionSchema>(FLASH_MODELS_TYPES.DelayModeActionSchema).to(DelayModeActionSchema).inSingletonScope()
         bind<IDelayModeActionReadWriteDao>(FLASH_MODELS_TYPES.DelayModeActionReadwriteDao).to(DelayModeActionReadWriteDaoMongoImpl).inSingletonScope()
