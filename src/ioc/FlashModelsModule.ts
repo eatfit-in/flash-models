@@ -31,6 +31,10 @@ import AuditTrailSchema from "../models/auditTrail/AuditTrailSchema"
 import { IAuditTrailReadWriteDao, IAuditTrailReadonlyDao } from "../daos/IAuditTrailDao"
 import AuditTrailReadWriteDaoMongoImpl from "../daos/AuditTrailReadWriteDaoMongoImpl"
 import AuditTrailReadonlyDaoMongoImpl from "../daos/AuditTrailReadonlyDaoMongoImpl"
+import { DelayWindowSchema } from "../models/delayWindow/DelayWindowSchema"
+import { IDelayWindowReadonlyDao, IDelayWindowReadWriteDao } from "../daos/IDelayWindowDao"
+import { DelayWindowReadWriteDaoMongoImpl } from "../daos/DelayWindowReadWriteDaoMongoImpl"
+import { DelayWindowReadonlyDaoMongoImpl } from "../daos/DelayWindowReadonlyDaoMongoImpl"
 
 export function FlashModelsModule(kernel: Inversify.Container): ContainerModule {
     return new Inversify.ContainerModule((bind: Inversify.interfaces.Bind) => {
@@ -48,6 +52,10 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
         bind<HistoricalETASchema>(FLASH_MODELS_TYPES.HistoricalETASchema).to(HistoricalETASchema).inSingletonScope()
         bind<IHistoricalETAReadWriteDao>(FLASH_MODELS_TYPES.HistoricalETAReadwriteDao).to(HistoricalETAReadWriteDaoMongoImpl).inSingletonScope()
         bind<IHistoricalETAReadonlyDao>(FLASH_MODELS_TYPES.HistoricalETAReadonlyDao).to(HistoricalETAReadonlyDaoMongoImpl).inSingletonScope()
+
+        bind<DelayWindowSchema>(FLASH_MODELS_TYPES.DelayWindowSchema).to(DelayWindowSchema).inSingletonScope()
+        bind<IDelayWindowReadWriteDao>(FLASH_MODELS_TYPES.DelayWindowReadWriteDao).to(DelayWindowReadWriteDaoMongoImpl).inSingletonScope()
+        bind<IDelayWindowReadonlyDao>(FLASH_MODELS_TYPES.DelayWindowReadonlyDao).to(DelayWindowReadonlyDaoMongoImpl).inSingletonScope()
 
         bind<AuditTrailSchema>(FLASH_MODELS_TYPES.AuditTrailSchema).to(AuditTrailSchema).inSingletonScope()
         bind<IAuditTrailReadWriteDao>(FLASH_MODELS_TYPES.AuditTrailReadwriteDao).to(AuditTrailReadWriteDaoMongoImpl).inSingletonScope()

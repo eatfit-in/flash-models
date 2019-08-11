@@ -29,5 +29,9 @@ export const FLASH_MODELS_TYPES = {
 
     AuditTrailReadonlyDao: "flash-models:AuditTrailReadonlyDao",
     AuditTrailReadwriteDao: "flash-models:AuditTrailReadwriteDao",
-    AuditTrailSchema: "flash-models:AuditTrailSchema"
+    AuditTrailSchema: "flash-models:AuditTrailSchema",
+
+    DelayWindowReadonlyDao: "flash-models:DelayWindowReadonlyDao",
+    DelayWindowReadWriteDao: "flash-models:DelayWindowReadWriteDao",
+    DelayWindowSchema: "flash-models:DelayWindowSchema"
 }
