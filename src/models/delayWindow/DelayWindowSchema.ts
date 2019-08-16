@@ -45,6 +45,10 @@ export class DelayWindowSchema extends MultiMongooseSchema<DelayWindowModel> {
             delayWindowSlotId: {
                 type: Number,
                 required: true
+            },
+            buffer: {
+                type: Number,
+                required: true
             }
         }
     }
