@@ -19,11 +19,11 @@ export class DelayWindowSchema extends MultiMongooseSchema<DelayWindowModel> {
             },
             startTime: {
                 type: Date,
-                required: true
+                required: false
             },
             endTime: {
                 type: Date,
-                required: true
+                required: false
             },
             date: {
                 type: String,
@@ -34,7 +34,7 @@ export class DelayWindowSchema extends MultiMongooseSchema<DelayWindowModel> {
                 type: String,
                 required: true
             },
-            delayModeReason: {
+            delayReason: {
                 type: String,
                 required: true
             },

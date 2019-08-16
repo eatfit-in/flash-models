@@ -143,10 +143,10 @@
   resolved "https://registry.yarnpkg.com/@curefit/finance-common/-/finance-common-1.4.0.tgz#6631ea1f877f85b20ac4ab2ddb4ee48363bdb5b2"
   integrity sha512-VPC0flpBTCUX1+ceObQ8mrtMABvh4wLlx8qxP4ZE8K8foTwMFpKl9/WYtvoHcMocUpdZpGOPABiMc8sMIMWrHw==
 
-"@curefit/flash-common@1.0.0-stage.2":
-  version "1.0.0-stage.2"
-  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.0.0-stage.2.tgz#1de81f8248ef9ad9710b0ed220a5d69d4a76afc1"
-  integrity sha512-TJYUTTreKQXgWlTSbR+r9PhKAZ+YEUQ6jwXWdkAF0efmp8xelhAe2Z/fPXEznFOTbkxWJlcb9zZls/uRKbHLAQ==
+"@curefit/flash-common@1.0.0-stage.3":
+  version "1.0.0-stage.3"
+  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.0.0-stage.3.tgz#30a23e126b8c417c760da39c07c4eeac4a5579f5"
+  integrity sha512-QzRj0U/E7hn6MVuRuVi+CozIme6BBZ5y20e9F8VmgpBehDukrrU+org1PgSF3BbYFG5e9hOn4EHiZdmD5RcxuQ==
   dependencies:
     "@curefit/base-common" "^0.0.12"
     "@curefit/eat-common" "^5.0.1-stage.0"
