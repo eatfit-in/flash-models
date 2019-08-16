@@ -41,6 +41,10 @@ export class DelayWindowSchema extends MultiMongooseSchema<DelayWindowModel> {
             revertDrivingScaleFactor: {
                 type: Number,
                 required: false
+            },
+            delayWindowSlotId: {
+                type: Number,
+                required: true
             }
         }
     }
