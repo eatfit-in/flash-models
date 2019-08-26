@@ -18,11 +18,11 @@ export class DelayWindowSchema extends MultiMongooseSchema<DelayWindowModel> {
                 index: true
             },
             startTime: {
-                type: Date,
+                type: Number,
                 required: true
             },
             endTime: {
-                type: Date,
+                type: Number,
                 required: true
             },
             date: {
@@ -47,6 +47,10 @@ export class DelayWindowSchema extends MultiMongooseSchema<DelayWindowModel> {
                 required: true
             },
             status: {
+                type: String,
+                required: true
+            },
+            reportedUserMailId: {
                 type: String,
                 required: true
             }
