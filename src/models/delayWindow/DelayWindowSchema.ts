@@ -1,6 +1,7 @@
 import { MONGO_TYPES, MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
 import { injectable, inject } from "inversify"
 import { DelayWindowModel } from "./DelayWindowModel"
+import { MealSlots } from "@curefit/eat-common"
 
 @injectable()
 export class DelayWindowSchema extends MultiMongooseSchema<DelayWindowModel> {
@@ -17,13 +18,11 @@ export class DelayWindowSchema extends MultiMongooseSchema<DelayWindowModel> {
                 required: true,
                 index: true
             },
-            startTime: {
-                type: Number,
-                required: true
-            },
-            endTime: {
-                type: Number,
-                required: true
+            mealSlot: {
+                type: String,
+                required: true,
+                index: true,
+                enum: MealSlots
             },
             date: {
                 type: String,
