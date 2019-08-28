@@ -1,6 +1,6 @@
 {
   "name": "@curefit/flash-models",
-  "version": "1.0.0-stage.7",
+  "version": "1.0.1-stage.0",
   "description": "A HTTP Client to hit flash servers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
