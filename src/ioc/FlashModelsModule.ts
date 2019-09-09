@@ -31,6 +31,10 @@ import AuditTrailSchema from "../models/auditTrail/AuditTrailSchema"
 import { IAuditTrailReadWriteDao, IAuditTrailReadonlyDao } from "../daos/IAuditTrailDao"
 import AuditTrailReadWriteDaoMongoImpl from "../daos/AuditTrailReadWriteDaoMongoImpl"
 import AuditTrailReadonlyDaoMongoImpl from "../daos/AuditTrailReadonlyDaoMongoImpl"
+import { MyGateApprovalsSchema } from "../models/MyGateApprovals/MyGateApprovalsSchema"
+import { IMyGateApprovalsReadonlyDao, IMyGateApprovalsReadWriteDao } from "../daos/MyGate/IMyGateApprovalsDao"
+import { MyGateApprovalsReadonlyDaoMongoImpl } from "../daos/MyGate/MyGateApprovalsReadonlyDaoMongoImpl"
+import { MyGateApprovalsReadWriteDaoMongoImpl } from "../daos/MyGate/MyGateApprovalsReadWriteDaoMongoImpl"
 
 export function FlashModelsModule(kernel: Inversify.Container): ContainerModule {
     return new Inversify.ContainerModule((bind: Inversify.interfaces.Bind) => {
@@ -48,6 +52,10 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
         bind<HistoricalETASchema>(FLASH_MODELS_TYPES.HistoricalETASchema).to(HistoricalETASchema).inSingletonScope()
         bind<IHistoricalETAReadWriteDao>(FLASH_MODELS_TYPES.HistoricalETAReadwriteDao).to(HistoricalETAReadWriteDaoMongoImpl).inSingletonScope()
         bind<IHistoricalETAReadonlyDao>(FLASH_MODELS_TYPES.HistoricalETAReadonlyDao).to(HistoricalETAReadonlyDaoMongoImpl).inSingletonScope()
+
+        bind<MyGateApprovalsSchema>(FLASH_MODELS_TYPES.MyGateApprovalsSchema).to(MyGateApprovalsSchema).inSingletonScope()
+        bind<IMyGateApprovalsReadWriteDao>(FLASH_MODELS_TYPES.MyGateApprovalsReadwriteDao).to(MyGateApprovalsReadWriteDaoMongoImpl).inSingletonScope()
+        bind<IMyGateApprovalsReadonlyDao>(FLASH_MODELS_TYPES.MyGateApprovalsReadonlyDao).to(MyGateApprovalsReadonlyDaoMongoImpl).inSingletonScope()
 
         bind<AuditTrailSchema>(FLASH_MODELS_TYPES.AuditTrailSchema).to(AuditTrailSchema).inSingletonScope()
         bind<IAuditTrailReadWriteDao>(FLASH_MODELS_TYPES.AuditTrailReadwriteDao).to(AuditTrailReadWriteDaoMongoImpl).inSingletonScope()

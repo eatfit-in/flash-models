@@ -27,6 +27,10 @@ export const FLASH_MODELS_TYPES = {
     HistoricalETAReadwriteDao: "flash-models:HistoricalETAReadwriteDao",
     HistoricalETASchema: "flash-models:HistoricalETASchema",
 
+    MyGateApprovalsReadonlyDao: "flash-models:MyGateApprovalsReadonlyDao",
+    MyGateApprovalsReadwriteDao: "flash-models:MyGateApprovalsReadwriteDao",
+    MyGateApprovalsSchema: "flash-models:MyGateApprovalsSchema",
+
     AuditTrailReadonlyDao: "flash-models:AuditTrailReadonlyDao",
     AuditTrailReadwriteDao: "flash-models:AuditTrailReadwriteDao",
     AuditTrailSchema: "flash-models:AuditTrailSchema"
