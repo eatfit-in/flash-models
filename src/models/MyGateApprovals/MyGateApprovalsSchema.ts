@@ -19,6 +19,18 @@ export class MyGateApprovalsSchema extends MultiMongooseSchema<MyGateApprovalsMo
             status: {
                 type: Boolean,
                 required: true
+            },
+            orderId: {
+                type: String,
+                required: true
+            },
+            timestamp: {
+                type: String,
+                required: true
+            },
+            source: {
+                type: String,
+                required: true
             }
         }
     }
