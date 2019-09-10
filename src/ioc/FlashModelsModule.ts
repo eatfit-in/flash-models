@@ -31,7 +31,11 @@ import AuditTrailSchema from "../models/auditTrail/AuditTrailSchema"
 import { IAuditTrailReadWriteDao, IAuditTrailReadonlyDao } from "../daos/IAuditTrailDao"
 import AuditTrailReadWriteDaoMongoImpl from "../daos/AuditTrailReadWriteDaoMongoImpl"
 import AuditTrailReadonlyDaoMongoImpl from "../daos/AuditTrailReadonlyDaoMongoImpl"
-import { MyGateApprovalsSchema } from "../models/MyGateApprovals/MyGateApprovalsSchema"
+import MyGateSocietySchema from "../models/myGate/MyGateSocietySchema"
+import { IMyGateSocietyReadonlyDao, IMyGateSocietyReadWriteDao } from "../daos/myGate/IMyGateSocietyDao"
+import { MyGateSocietyReadWriteDaoMongoImpl } from "../daos/myGate/MyGateSocietyReadWriteImpl"
+import MyGateSocietyReadonlyDaoMongoImpl from "../daos/myGate/MyGateSocietyReadOnlyImpl"
+import { MyGateApprovalsSchema } from "../models/myGate/MyGateApprovalsSchema"
 import { IMyGateApprovalsReadonlyDao, IMyGateApprovalsReadWriteDao } from "../daos/MyGate/IMyGateApprovalsDao"
 import { MyGateApprovalsReadonlyDaoMongoImpl } from "../daos/MyGate/MyGateApprovalsReadonlyDaoMongoImpl"
 import { MyGateApprovalsReadWriteDaoMongoImpl } from "../daos/MyGate/MyGateApprovalsReadWriteDaoMongoImpl"
@@ -52,6 +56,10 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
         bind<HistoricalETASchema>(FLASH_MODELS_TYPES.HistoricalETASchema).to(HistoricalETASchema).inSingletonScope()
         bind<IHistoricalETAReadWriteDao>(FLASH_MODELS_TYPES.HistoricalETAReadwriteDao).to(HistoricalETAReadWriteDaoMongoImpl).inSingletonScope()
         bind<IHistoricalETAReadonlyDao>(FLASH_MODELS_TYPES.HistoricalETAReadonlyDao).to(HistoricalETAReadonlyDaoMongoImpl).inSingletonScope()
+
+        bind<MyGateSocietySchema>(FLASH_MODELS_TYPES.MyGateSocietySchema).to(MyGateSocietySchema).inSingletonScope()
+        bind<IMyGateSocietyReadWriteDao>(FLASH_MODELS_TYPES.MyGateSocietyReadwriteDao).to(MyGateSocietyReadWriteDaoMongoImpl).inSingletonScope()
+        bind<IMyGateSocietyReadonlyDao>(FLASH_MODELS_TYPES.MyGateSocietyReadonlyDao).to(MyGateSocietyReadonlyDaoMongoImpl).inSingletonScope()
 
         bind<MyGateApprovalsSchema>(FLASH_MODELS_TYPES.MyGateApprovalsSchema).to(MyGateApprovalsSchema).inSingletonScope()
         bind<IMyGateApprovalsReadWriteDao>(FLASH_MODELS_TYPES.MyGateApprovalsReadwriteDao).to(MyGateApprovalsReadWriteDaoMongoImpl).inSingletonScope()
