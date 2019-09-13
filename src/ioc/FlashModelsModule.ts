@@ -36,9 +36,9 @@ import { IMyGateSocietyReadonlyDao, IMyGateSocietyReadWriteDao } from "../daos/m
 import { MyGateSocietyReadWriteDaoMongoImpl } from "../daos/myGate/MyGateSocietyReadWriteImpl"
 import MyGateSocietyReadonlyDaoMongoImpl from "../daos/myGate/MyGateSocietyReadOnlyImpl"
 import { MyGateApprovalsSchema } from "../models/myGate/MyGateApprovalsSchema"
-import { IMyGateApprovalsReadonlyDao, IMyGateApprovalsReadWriteDao } from "../daos/MyGate/IMyGateApprovalsDao"
-import { MyGateApprovalsReadonlyDaoMongoImpl } from "../daos/MyGate/MyGateApprovalsReadonlyDaoMongoImpl"
-import { MyGateApprovalsReadWriteDaoMongoImpl } from "../daos/MyGate/MyGateApprovalsReadWriteDaoMongoImpl"
+import { IMyGateApprovalsReadonlyDao, IMyGateApprovalsReadWriteDao } from "../daos/myGate/IMyGateApprovalsDao"
+import { MyGateApprovalsReadonlyDaoMongoImpl } from "../daos/myGate/MyGateApprovalsReadonlyDaoMongoImpl"
+import { MyGateApprovalsReadWriteDaoMongoImpl } from "../daos/myGate/MyGateApprovalsReadWriteDaoMongoImpl"
 
 export function FlashModelsModule(kernel: Inversify.Container): ContainerModule {
     return new Inversify.ContainerModule((bind: Inversify.interfaces.Bind) => {
