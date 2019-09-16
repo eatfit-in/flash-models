@@ -18,7 +18,8 @@ export class MyGateApprovalsSchema extends MultiMongooseSchema<MyGateApprovalsMo
                 required: true
             },
             status: {
-                type: MyGateApprovalStatus,
+                type: String,
+                enum: MyGateApprovalStatus,
                 required: true
             },
             orderId: {
