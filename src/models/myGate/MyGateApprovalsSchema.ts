@@ -1,6 +1,7 @@
 import { MONGO_TYPES, MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
 import { injectable, inject } from "inversify"
 import { MyGateApprovalsModel } from "./MyGateApprovalsModel"
+import { MyGateApprovalStatus } from "@curefit/flash-common"
 
 @injectable()
 export class MyGateApprovalsSchema extends MultiMongooseSchema<MyGateApprovalsModel> {
@@ -17,7 +18,7 @@ export class MyGateApprovalsSchema extends MultiMongooseSchema<MyGateApprovalsMo
                 required: true
             },
             status: {
-                type: Boolean,
+                type: MyGateApprovalStatus,
                 required: true
             },
             orderId: {
