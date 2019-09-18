@@ -35,7 +35,7 @@
     "@curefit/base-common": "^1.0.1",
     "@curefit/delivery-models": "^1.1.0",
     "@curefit/eat-common": "^1.3.21",
-    "@curefit/flash-common": "^1.7.0",
+    "@curefit/flash-common": "^1.7.1",
     "@curefit/mongo-utils": "^1.0.1",
     "@curefit/schema-mongo": "^1.0.2",
     "@curefit/shipment-models": "^1.4.0",
