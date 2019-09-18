@@ -152,6 +152,15 @@
     "@curefit/eat-common" "^1.3.21"
     "@curefit/workflow-common" "^0.0.4"
 
+"@curefit/flash-common@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.7.2.tgz#ce65f53f909f49c3833c0d5147e6fa6b3ca100e3"
+  integrity sha512-6T3+c0NPBlxAY2AtK2SfmJu5OMty3lC1AqZNo8a2F/vKVtEBqOQpAKyOU0Ok0hy2pto0cwQDTcJ7O4JYHmmF5A==
+  dependencies:
+    "@curefit/base-common" "^0.0.12"
+    "@curefit/eat-common" "^1.3.21"
+    "@curefit/workflow-common" "^0.0.4"
+
 "@curefit/food-common@^1.1.0", "@curefit/food-common@^1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@curefit/food-common/-/food-common-1.5.0.tgz#fbe105c773dd4145679db7291e5cc0cf4695793b"
