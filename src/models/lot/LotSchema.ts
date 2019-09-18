@@ -132,6 +132,43 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
             }
         }, { _id: false })
 
+        const KitchenDelayInfoSchema = new Schema({
+            delayInSecs: {
+                type: Number,
+                required: true
+            },
+            shipmentId: {
+                type: String,
+                required: true
+            },
+            delayComputedAt: {
+                required: true,
+                type: Date
+            }
+        }, { _id: false })
+
+        const PilotDelayInfoSchema = new Schema({
+            delayInSecs: {
+                type: Number,
+                required: true
+            },
+            delayComputedAt: {
+                required: true,
+                type: Date
+            }
+        }, { _id: false })
+
+        const DelayInfoSchema = new Schema({
+            kitchenDelay: {
+                required: false,
+                type: KitchenDelayInfoSchema
+            },
+            pilotDelay: {
+                required: false,
+                type: PilotDelayInfoSchema
+            }
+        }, { _id: false })
+
         return {
             lotId: {
                 type: String,
@@ -214,6 +251,10 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
             },
             logistics: {
                 type: LogisticsSchema,
+                required: false
+            },
+            delayInfo: {
+                type: DelayInfoSchema,
                 required: false
             }
 
