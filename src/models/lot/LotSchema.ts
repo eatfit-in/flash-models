@@ -49,8 +49,8 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 type: Date,
                 required: false
             },
-            estimatedDeliveryEndTime: {
-                type: Date,
+            timeAtLocation: {
+                type: Number,
                 required: false
             },
             legDistance: {
@@ -69,15 +69,15 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
             address: {
                 required: true,
                 type: delAddrSchema
+            },
+            estimates: {
+                required: true,
+                type: Schema.Types.Mixed
             }
         }, { _id: false })
 
         const DeliveryDetailsSchema = new Schema({
             kitchenDepartureTime: {
-                required: false,
-                type: Date
-            },
-            estimatedKitchenDepartureTime: {
                 required: false,
                 type: Date
             },
@@ -97,17 +97,17 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 required: false,
                 type: Date
             },
-            estimatedEndTime: {
-                required: false,
-                type: Date
-            },
             tripDistance: {
                 type: Number,
                 required: false
             },
-            originalEstimatedEndTime: {
-                required: false,
-                type: Date
+            selectedSource: {
+                type: String,
+                required: false
+            },
+            estimates: {
+                type: Schema.Types.Mixed,
+                required: false
             }
         }, { _id: false })
 
@@ -221,14 +221,6 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 required: false
             },
             delayInSecs: {
-                type: Number,
-                required: false
-            },
-            estimatedDelayInSecs: {
-                type: Number,
-                required: false
-            },
-            estimatedLastDeliveryDelayInSeconds: {
                 type: Number,
                 required: false
             },
