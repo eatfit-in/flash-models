@@ -71,7 +71,7 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 type: delAddrSchema
             },
             estimates: {
-                required: true,
+                required: false,
                 type: Schema.Types.Mixed
             }
         }, { _id: false })
