@@ -49,8 +49,8 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 type: Date,
                 required: false
             },
-            estimatedDeliveryEndTime: {
-                type: Date,
+            timeAtLocation: {
+                type: Number,
                 required: false
             },
             legDistance: {
@@ -69,15 +69,15 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
             address: {
                 required: true,
                 type: delAddrSchema
+            },
+            estimates: {
+                required: true,
+                type: Schema.Types.Mixed
             }
         }, { _id: false })
 
         const DeliveryDetailsSchema = new Schema({
             kitchenDepartureTime: {
-                required: false,
-                type: Date
-            },
-            estimatedKitchenDepartureTime: {
                 required: false,
                 type: Date
             },
@@ -97,17 +97,17 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 required: false,
                 type: Date
             },
-            estimatedEndTime: {
-                required: false,
-                type: Date
-            },
             tripDistance: {
                 type: Number,
                 required: false
             },
-            originalEstimatedEndTime: {
-                required: false,
-                type: Date
+            selectedSource: {
+                type: String,
+                required: false
+            },
+            estimates: {
+                type: Schema.Types.Mixed,
+                required: false
             }
         }, { _id: false })
 
@@ -129,6 +129,43 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 type: String,
                 enum: LogisticsProviders,
                 required: false
+            }
+        }, { _id: false })
+
+        const KitchenDelayInfoSchema = new Schema({
+            delayInSecs: {
+                type: Number,
+                required: true
+            },
+            shipmentId: {
+                type: String,
+                required: true
+            },
+            delayComputedAt: {
+                required: true,
+                type: Date
+            }
+        }, { _id: false })
+
+        const PilotDelayInfoSchema = new Schema({
+            delayInSecs: {
+                type: Number,
+                required: true
+            },
+            delayComputedAt: {
+                required: true,
+                type: Date
+            }
+        }, { _id: false })
+
+        const DelayInfoSchema = new Schema({
+            kitchenDelay: {
+                required: false,
+                type: KitchenDelayInfoSchema
+            },
+            pilotDelay: {
+                required: false,
+                type: PilotDelayInfoSchema
             }
         }, { _id: false })
 
@@ -187,14 +224,6 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 type: Number,
                 required: false
             },
-            estimatedDelayInSecs: {
-                type: Number,
-                required: false
-            },
-            estimatedLastDeliveryDelayInSeconds: {
-                type: Number,
-                required: false
-            },
             lastDeliveryDelayInSeconds: {
                 type: Number,
                 required: false
@@ -214,6 +243,10 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
             },
             logistics: {
                 type: LogisticsSchema,
+                required: false
+            },
+            delayInfo: {
+                type: DelayInfoSchema,
                 required: false
             }
 
