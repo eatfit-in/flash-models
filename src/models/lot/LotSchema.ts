@@ -53,6 +53,10 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 type: Number,
                 required: false
             },
+            estimatedDeliveryEndTime: {
+                type: Date,
+                required: false
+            },
             legDistance: {
                 type: Number,
                 required: false
@@ -81,6 +85,10 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 required: false,
                 type: Date
             },
+            estimatedKitchenDepartureTime: {
+                required: false,
+                type: Date
+            },
             startTime: {
                 required: true,
                 type: Date
@@ -97,6 +105,10 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 required: false,
                 type: Date
             },
+            estimatedEndTime: {
+                required: false,
+                type: Date
+            },
             tripDistance: {
                 type: Number,
                 required: false
@@ -108,6 +120,10 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
             estimates: {
                 type: Schema.Types.Mixed,
                 required: false
+            },
+            originalEstimatedEndTime: {
+                required: false,
+                type: Date
             }
         }, { _id: false })
 
@@ -221,6 +237,14 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
                 required: false
             },
             delayInSecs: {
+                type: Number,
+                required: false
+            },
+            estimatedDelayInSecs: {
+                type: Number,
+                required: false
+            },
+            estimatedLastDeliveryDelayInSeconds: {
                 type: Number,
                 required: false
             },
