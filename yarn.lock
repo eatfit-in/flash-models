@@ -104,14 +104,14 @@
     "@curefit/shipment-common" "^1.0.1"
     "@curefit/workflow" "^0.0.2"
 
-"@curefit/eat-common@^5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@curefit/eat-common/-/eat-common-5.6.0.tgz#38074dad20741507b43d93ccc55b3fe54b57b0ba"
-  integrity sha512-+twZ22PoZlPjCAE2e+iNKAGCNL3hGYzz5Ww7mH/hPZ221BNGEkjzUpE1LEuEZdAV6Up2oHsLahRl317q0WAOMQ==
+"@curefit/eat-common@^5.10.0", "@curefit/eat-common@^5.8.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@curefit/eat-common/-/eat-common-5.10.0.tgz#96afc7eb241066f499708ffcc869610eb0df614c"
+  integrity sha512-ko9QSRoF55PBtRvReBqKCfnttc4yghy70roVzsQbz6EgopAdliHvq26GsEpsTKMWCl2LZSbs3DbsFVhA6LhSuw==
   dependencies:
     "@curefit/base-common" "^1.3.0"
     "@curefit/finance-common" "^1.3.0"
-    "@curefit/flash-common" "^1.7.0"
+    "@curefit/flash-common" "^1.7.2"
     "@curefit/food-common" "^1.7.1"
     "@curefit/product-common" "^3.5.0"
     "@curefit/shipment-common-base" "0.0.1"
@@ -143,7 +143,7 @@
   resolved "https://registry.yarnpkg.com/@curefit/finance-common/-/finance-common-1.5.0.tgz#606b83df0a7d638304f85d4dda53b01b5035bb51"
   integrity sha512-B/c/c4HMVHOY2J4vf7e1MsYpKczKWl2k2VlEmPPs9ARQiGDw4WezvHD2sRFksrKapBKs4w+hu3OKU4Wse5z4PA==
 
-"@curefit/flash-common@^1.7.0", "@curefit/flash-common@^1.7.1":
+"@curefit/flash-common@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.7.1.tgz#51c68336e5e0cae4532f69c7a71df38568cf7542"
   integrity sha512-G2dxaFWz6RThZB+0eq+nqgp+SX3Gilif2aMdeXx+Fm9opwbxQQaUhJuNAbukJOg1UZMevDvdWRS+/bziLGPhhA==
@@ -153,12 +153,12 @@
     "@curefit/workflow-common" "^0.0.4"
 
 "@curefit/flash-common@^1.7.2":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.7.2.tgz#ce65f53f909f49c3833c0d5147e6fa6b3ca100e3"
-  integrity sha512-6T3+c0NPBlxAY2AtK2SfmJu5OMty3lC1AqZNo8a2F/vKVtEBqOQpAKyOU0Ok0hy2pto0cwQDTcJ7O4JYHmmF5A==
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.7.3.tgz#ed9b465c8b3bd7da0274b68e005b0704df8e0048"
+  integrity sha512-YXkzV8hxbK1jkKoTIRFRcRXbI/v1Ezl7uQtgcLP1vB8ZRdignGfik/pUNuGCIiI1U5WDcxLWMlcVZhip29cvTQ==
   dependencies:
     "@curefit/base-common" "^0.0.12"
-    "@curefit/eat-common" "^1.3.21"
+    "@curefit/eat-common" "^5.8.0"
     "@curefit/workflow-common" "^0.0.4"
 
 "@curefit/food-common@^1.1.0", "@curefit/food-common@^1.5.0":
