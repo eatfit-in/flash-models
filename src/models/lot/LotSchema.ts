@@ -124,6 +124,10 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
             originalEstimatedEndTime: {
                 required: false,
                 type: Date
+            },
+            estimatedTimesUsedForShipmentWorkflow: {
+                required: false,
+                type: Boolean
             }
         }, { _id: false })
 
