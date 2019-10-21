@@ -18,6 +18,11 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@curefit/base-common@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.3.0.tgz#3592e3b036be43a8f8850464a03c188bd5644a57"
+  integrity sha512-YS1iw5oBdLQldOuTwlGVAIlILPyQVrPs5c9xKvH0GSARG2ek4uQe6nu8HUsey1t2Lbt68zC28s3g+D6eLo/9oQ==
+
 "@curefit/base-common@^0.0.12":
   version "0.0.12"
   resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-0.0.12.tgz#483faf6f02b5276b7ae52e4f40dc4b8f54cb5c42"
@@ -37,6 +42,24 @@
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.4.1.tgz#2d3f06e1130f8803cc5b9ca5d12a6310672e87d7"
   integrity sha512-vhQcIMur7S8UK4Jsf61OJV6LunwEWQNOKlkJyxAGQw7Um5qwxBI+82LOA4ke5fL/cD8NnNq2HNqe3PNq25d54A==
+
+"@curefit/base@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@curefit/base/-/base-1.5.1.tgz#943190fcf8eb47799cdde5e224e60248d096777f"
+  integrity sha512-yG6Pc4lyTrJIHNsXv2S89lTp/TNat+oezB7/+nrgFduDkFlIRlV2s8Gjx9btSG5erifzHnS1PK9wGI3qkvnMoQ==
+  dependencies:
+    cls-hooked "4.2.2"
+    inversify "^5.0.1"
+    isomorphic-fetch "^2.2.1"
+    lodash "^4.17.11"
+    mkdirp "^0.5.1"
+    moment "^2.22.2"
+    moment-timezone "^0.5.23"
+    prom-client "^11.2.1"
+    tslint "^5.11.0"
+    typescript "^3.1.6"
+    winston "^3.0.0"
+    winston-daily-rotate-file "^3.4.0"
 
 "@curefit/base@^1.0.1":
   version "1.0.1"
@@ -92,19 +115,20 @@
     "@curefit/product-common" "^1.4.2"
     "@curefit/workflow" "^0.0.2"
 
-"@curefit/eat-common@^2.0.4":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@curefit/eat-common/-/eat-common-2.1.2.tgz#2ce1bac291286e4fdf59eaa8f1ff0ea901b68741"
-  integrity sha512-AlkSi2Td59Z0zmJY0YX29hwyzDAfCzoPBx5tBTr/htJZzUUnWE/QleUG5zzocAG12LF8qWa8COKEC533tMW3Cw==
+"@curefit/eat-common@^5.13.1":
+  version "5.13.1"
+  resolved "https://registry.yarnpkg.com/@curefit/eat-common/-/eat-common-5.13.1.tgz#618f32feff0572a0b45eed8979ac066ffb7b2bdc"
+  integrity sha512-eibv2GpOKeEg6jZZGd3ZxW+3J3kTqWV+8BZvYwnWVr8Gk/S5E1OCcgHBkB35kFDuEIoknOn6CuzpwYVsMvo0Pg==
   dependencies:
-    "@curefit/base-common" "^1.2.0"
-    "@curefit/finance-common" "^0.0.6"
-    "@curefit/food-common" "^1.5.0"
-    "@curefit/product-common" "^2.2.0"
-    "@curefit/shipment-common" "^1.0.1"
-    "@curefit/workflow" "^0.0.2"
+    "@curefit/base-common" "^1.3.0"
+    "@curefit/finance-common" "^1.3.0"
+    "@curefit/flash-common" "^1.7.2"
+    "@curefit/food-common" "^1.7.1"
+    "@curefit/product-common" "^3.5.0"
+    "@curefit/shipment-common-base" "0.0.1"
+    "@curefit/workflow" "^0.2.0"
 
-"@curefit/eat-common@^5.10.0", "@curefit/eat-common@^5.8.0":
+"@curefit/eat-common@^5.8.0":
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/@curefit/eat-common/-/eat-common-5.10.0.tgz#96afc7eb241066f499708ffcc869610eb0df614c"
   integrity sha512-ko9QSRoF55PBtRvReBqKCfnttc4yghy70roVzsQbz6EgopAdliHvq26GsEpsTKMWCl2LZSbs3DbsFVhA6LhSuw==
@@ -143,7 +167,7 @@
   resolved "https://registry.yarnpkg.com/@curefit/finance-common/-/finance-common-1.5.0.tgz#606b83df0a7d638304f85d4dda53b01b5035bb51"
   integrity sha512-B/c/c4HMVHOY2J4vf7e1MsYpKczKWl2k2VlEmPPs9ARQiGDw4WezvHD2sRFksrKapBKs4w+hu3OKU4Wse5z4PA==
 
-"@curefit/flash-common@^1.7.1":
+"@curefit/flash-common@^1.7.1", "@curefit/flash-common@^1.7.2":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.7.1.tgz#51c68336e5e0cae4532f69c7a71df38568cf7542"
   integrity sha512-G2dxaFWz6RThZB+0eq+nqgp+SX3Gilif2aMdeXx+Fm9opwbxQQaUhJuNAbukJOg1UZMevDvdWRS+/bziLGPhhA==
@@ -152,16 +176,7 @@
     "@curefit/eat-common" "^1.3.21"
     "@curefit/workflow-common" "^0.0.4"
 
-"@curefit/flash-common@^1.7.2":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.7.3.tgz#ed9b465c8b3bd7da0274b68e005b0704df8e0048"
-  integrity sha512-YXkzV8hxbK1jkKoTIRFRcRXbI/v1Ezl7uQtgcLP1vB8ZRdignGfik/pUNuGCIiI1U5WDcxLWMlcVZhip29cvTQ==
-  dependencies:
-    "@curefit/base-common" "^0.0.12"
-    "@curefit/eat-common" "^5.8.0"
-    "@curefit/workflow-common" "^0.0.4"
-
-"@curefit/food-common@^1.1.0", "@curefit/food-common@^1.5.0":
+"@curefit/food-common@^1.1.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@curefit/food-common/-/food-common-1.5.0.tgz#fbe105c773dd4145679db7291e5cc0cf4695793b"
   integrity sha512-X3rr9lT7FhMvrNg6U7hwjZajM7pY37Zbyfsc4Rr59mLqFReG2RDxsmZcgaAF5X/mqBMYPDiseFFw65UB1sL9nw==
@@ -200,18 +215,6 @@
     querystring "^0.2.0"
     url "^0.11.0"
 
-"@curefit/product-common@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@curefit/product-common/-/product-common-2.2.0.tgz#e01069e9407ac24d3a04361da31e56bc408def22"
-  integrity sha512-YHgLhDNMMuiUJeJjupnEUfsl7NJ/ia3CL22ooXeWJLM8EFi4kIYGFc/iu4ixrWhVossCoSK4X9fiuyWztqpKXA==
-  dependencies:
-    "@curefit/base-common" "^1.2.0"
-    "@curefit/finance-common" "^0.0.6"
-    "@curefit/user-common" "^1.2.0"
-    "@curefit/util-common" "^1.3.6"
-    querystring "^0.2.0"
-    url "^0.11.0"
-
 "@curefit/product-common@^3.5.0":
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/@curefit/product-common/-/product-common-3.8.0.tgz#84adf8bb4269779a74dc96d1c43a3edd784873ea"
@@ -223,6 +226,17 @@
     "@curefit/util-common" "^2.9.3"
     querystring "^0.2.0"
     url "^0.11.0"
+
+"@curefit/redis-utils@^1.5.0":
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/@curefit/redis-utils/-/redis-utils-1.6.5.tgz#3cc8ebe6812a853c4f7760d564a3fe321f216826"
+  integrity sha512-fH7CCQzPhZfd727j1hN2WGjNzfD0H0XE8L7nvtWBvgvNV+Zke501YEO5v6n6tmzuz2TADa0pZ5yefPzsJoRCxA==
+  dependencies:
+    "@curefit/base" "1.5.1"
+    "@curefit/base-common" "1.3.0"
+    ioredis "^4.0.2"
+    redis "^2.8.0"
+    redlock "^3.1.0"
 
 "@curefit/schema-mongo@^1.0.2":
   version "1.0.2"
@@ -238,21 +252,22 @@
   resolved "https://registry.yarnpkg.com/@curefit/shipment-common-base/-/shipment-common-base-0.0.1.tgz#4267de4510ac680ab1948ee0c8349b54bd75f61c"
   integrity sha512-EFdCCs4Y65cpQu1aEviBNmbfpZIuc2UNKTyDvEZgPcpPy5gHfWWH3DKszhy0LYrGDRVxN+hH8r03zRkYRkUjkA==
 
-"@curefit/shipment-common@^1.0.1", "@curefit/shipment-common@^1.0.2":
+"@curefit/shipment-common@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@curefit/shipment-common/-/shipment-common-1.0.2.tgz#5ae3864f6b2965dca76b7baacaeca0409ab64206"
   integrity sha512-gyV/VKhUsxjxYnNF/514RyUQ6AafmUSkcJTqP9uEuGb/R4Xft7MR8UPbY3PelSVH89v9qMNF7YF6WYnTqbik+Q==
 
-"@curefit/shipment-models@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@curefit/shipment-models/-/shipment-models-1.4.0.tgz#3bc8ac03f3d464b8894ad57d5021af0ecae3ca0a"
-  integrity sha512-zwokBW0aQenRksBxlmUMWHv6GRTQqzg/aw8Q5O97wTqd2b+LMQtfaHf7AojtjmXGxigPGRsLRDC3u/Dgg7nTfg==
+"@curefit/shipment-models@^1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@curefit/shipment-models/-/shipment-models-1.23.0.tgz#19aa034868bc1f1c96fd94750d728eac3c469ac1"
+  integrity sha512-gZXdYvsCB72fiRMilKgJSJWQFO2ZGv3IuTuMQV10va3Z2+ZJcxByjUvfGbXoLJJuVWp3uUwvbcOsGQb3FBCMvg==
   dependencies:
     "@curefit/base" "^1.0.1"
     "@curefit/base-common" "^1.0.1"
     "@curefit/delivery-models" "^1.1.0"
-    "@curefit/eat-common" "^2.0.4"
+    "@curefit/eat-common" "^5.13.1"
     "@curefit/mongo-utils" "^1.0.0"
+    "@curefit/redis-utils" "^1.5.0"
     "@curefit/shipment-common" "^1.0.2"
     uuid "^3.3.2"
 
@@ -307,6 +322,15 @@
   dependencies:
     barrelsby "^1.0.2"
     lodash "^4.17.11"
+    shortid "^2.2.14"
+
+"@curefit/workflow@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@curefit/workflow/-/workflow-0.2.0.tgz#c56e2e0e4b0d0d298a60d85e0fcd33eb8e18763b"
+  integrity sha512-6oZ56YEIV+DG6/yLy4JM3oO6wN12VMwDA82WEpzj5vEUsRCv1es5g+o7k609ZR4/iFISjX7XdDzr2XRxm74whw==
+  dependencies:
+    barrelsby "^1.0.2"
+    lodash "^4.17.14"
     shortid "^2.2.14"
 
 "@types/bson@*":
@@ -407,6 +431,11 @@ bluebird@2.10.2:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.10.2.tgz#024a5517295308857f14f91f1106fc3b555f446b"
   integrity sha1-AkpVFylTCIV/FPkfEQb8O1VfRGs=
 
+bluebird@^3.3.3:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.1.tgz#df70e302b471d7473489acf26a93d63b53f874de"
+  integrity sha512-DdmyoGCleJnkbp3nkbxTLJ18rjDsE4yCggEwKNXkeV123sPNfOCYeDoeuOY+F2FrSjO1YXcTU+dsy96KMy+gcg==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -468,6 +497,11 @@ cls-mongoose@^2.0.1:
   integrity sha1-bj4S1y58IfV6LnQzsqGNqtGkduo=
   dependencies:
     shimmer "^1"
+
+cluster-key-slot@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cluster-key-slot/-/cluster-key-slot-1.1.0.tgz#30474b2a981fb12172695833052bc0d01336d10d"
+  integrity sha512-2Nii8p3RwAPiFwsnZvukotvow2rIHM+yQ6ZcBXGHdniadkYGZYiGmkHJIbZPIV9nfv7m/U1IPMVVcAhoWFeklw==
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -563,10 +597,22 @@ debug@2.2.0:
   dependencies:
     ms "0.7.1"
 
+debug@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
+  dependencies:
+    ms "^2.1.1"
+
 decamelize@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
+
+denque@^1.1.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/denque/-/denque-1.4.1.tgz#6744ff7641c148c3f8a69c307e51235c1f4a37cf"
+  integrity sha512-OfzPuSZKGcgr96rf1oODnfjqBFmr1DVoc/TrItj3Ohe0Ah1C5WX5Baquw/9U9KovnQ88EqmJbD66rKYUQYN1tQ==
 
 diagnostics@^1.1.1:
   version "1.1.1"
@@ -581,6 +627,11 @@ diff@^3.2.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
   integrity sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
+
+double-ended-queue@^2.1.0-0:
+  version "2.1.0-0"
+  resolved "https://registry.yarnpkg.com/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz#103d3527fd31528f40188130c841efdd78264e5c"
+  integrity sha1-ED01J/0xUo9AGIEwyEHv3XgmTlw=
 
 emitter-listener@^1.0.1:
   version "1.1.2"
@@ -746,6 +797,21 @@ invert-kv@^2.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
 
+ioredis@^4.0.2:
+  version "4.14.1"
+  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-4.14.1.tgz#b73ded95fcf220f106d33125a92ef6213aa31318"
+  integrity sha512-94W+X//GHM+1GJvDk6JPc+8qlM7Dul+9K+lg3/aHixPN7ZGkW6qlvX0DG6At9hWtH2v3B32myfZqWoANUJYGJA==
+  dependencies:
+    cluster-key-slot "^1.1.0"
+    debug "^4.1.1"
+    denque "^1.1.0"
+    lodash.defaults "^4.2.0"
+    lodash.flatten "^4.4.0"
+    redis-commands "1.5.0"
+    redis-errors "^1.2.0"
+    redis-parser "^3.0.0"
+    standard-as-callback "^2.0.1"
+
 is-arrayish@^0.3.1:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
@@ -825,6 +891,16 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
+
+lodash.defaults@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
+  integrity sha1-0JF4cW/+pN3p5ft7N/bwgCJ0WAw=
+
+lodash.flatten@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
+  integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
 
 lodash@^4.14.0, lodash@^4.17.10, lodash@^4.17.11:
   version "4.17.11"
@@ -1175,6 +1251,44 @@ readable-stream@^3.1.1:
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
+redis-commands@1.5.0, redis-commands@^1.2.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/redis-commands/-/redis-commands-1.5.0.tgz#80d2e20698fe688f227127ff9e5164a7dd17e785"
+  integrity sha512-6KxamqpZ468MeQC3bkWmCB1fp56XL64D4Kf0zJSwDZbVLLm7KFkoIcHrgRvQ+sk8dnhySs7+yBg94yIkAK7aJg==
+
+redis-errors@^1.0.0, redis-errors@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/redis-errors/-/redis-errors-1.2.0.tgz#eb62d2adb15e4eaf4610c04afe1529384250abad"
+  integrity sha1-62LSrbFeTq9GEMBK/hUpOEJQq60=
+
+redis-parser@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/redis-parser/-/redis-parser-2.6.0.tgz#52ed09dacac108f1a631c07e9b69941e7a19504b"
+  integrity sha1-Uu0J2srBCPGmMcB+m2mUHnoZUEs=
+
+redis-parser@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/redis-parser/-/redis-parser-3.0.0.tgz#b66d828cdcafe6b4b8a428a7def4c6bcac31c8b4"
+  integrity sha1-tm2CjNyv5rS4pCin3vTGvKwxyLQ=
+  dependencies:
+    redis-errors "^1.0.0"
+
+redis@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-2.8.0.tgz#202288e3f58c49f6079d97af7a10e1303ae14b02"
+  integrity sha512-M1OkonEQwtRmZv4tEWF2VgpG0JWJ8Fv1PhlgT5+B+uNq2cA3Rt1Yt/ryoR+vQNOQcIEgdCdfH0jr3bDpihAw1A==
+  dependencies:
+    double-ended-queue "^2.1.0-0"
+    redis-commands "^1.2.0"
+    redis-parser "^2.6.0"
+
+redlock@^3.1.0:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/redlock/-/redlock-3.1.2.tgz#27c82534da8548027aa8d61084a08078ae74ed36"
+  integrity sha512-CKXhOvLd4In5QOfbcF0GIcSsa+pL9JPZd+eKeMk/Sydxh93NUNtwQMTIKFqwPu3PjEgDStwYFJTurVzNA33pZw==
+  dependencies:
+    bluebird "^3.3.3"
+
 regexp-clone@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/regexp-clone/-/regexp-clone-0.0.1.tgz#a7c2e09891fdbf38fbb10d376fb73003e68ac589"
@@ -1290,6 +1404,11 @@ stack-trace@0.0.x:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/stack-trace/-/stack-trace-0.0.10.tgz#547c70b347e8d32b4e108ea1a2a159e5fdde19c0"
   integrity sha1-VHxws0fo0ytOEI6hoqFZ5f3eGcA=
+
+standard-as-callback@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/standard-as-callback/-/standard-as-callback-2.0.1.tgz#ed8bb25648e15831759b6023bdb87e6b60b38126"
+  integrity sha512-NQOxSeB8gOI5WjSaxjBgog2QFw55FV8TkS6Y07BiB3VJ8xNTvUYm0wl0s8ObgQ5NhdpnNfigMIKjgPESzgr4tg==
 
 string-width@^1.0.1:
   version "1.0.2"
