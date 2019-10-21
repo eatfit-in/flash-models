@@ -43,6 +43,6 @@
     "uuid": "^3.2.1"
   },
   "resolutions": {
-    "@curefit/flash-common": "^1.7.1"
+    "@curefit/flash-common": "^1.7.2"
   }
 }
