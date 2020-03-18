@@ -116,6 +116,10 @@ export class PilotSchema extends MultiMongooseSchema<PilotModel> {
             deviceInfo: {
                 type: SchemaTypes.Mixed,
                 required: false
+            },
+            email: {
+                type: String,
+                required: false
             }
         }
     }
