@@ -100,6 +100,10 @@ export class PilotSchema extends MultiMongooseSchema<PilotModel> {
                 type: Number,
                 required: false
             },
+            temperature: {
+                type: Number,
+                required: false
+            },
             status: {
                 type: String,
                 enum: StatusTypes,
@@ -115,6 +119,10 @@ export class PilotSchema extends MultiMongooseSchema<PilotModel> {
             },
             deviceInfo: {
                 type: SchemaTypes.Mixed,
+                required: false
+            },
+            email: {
+                type: String,
                 required: false
             }
         }

@@ -35,6 +35,14 @@ import { DelayWindowSchema } from "../models/delayWindow/DelayWindowSchema"
 import { IDelayWindowReadonlyDao, IDelayWindowReadWriteDao } from "../daos/IDelayWindowDao"
 import { DelayWindowReadWriteDaoMongoImpl } from "../daos/DelayWindowReadWriteDaoMongoImpl"
 import { DelayWindowReadonlyDaoMongoImpl } from "../daos/DelayWindowReadonlyDaoMongoImpl"
+import MyGateSocietySchema from "../models/myGate/MyGateSocietySchema"
+import { IMyGateSocietyReadonlyDao, IMyGateSocietyReadWriteDao } from "../daos/myGate/IMyGateSocietyDao"
+import { MyGateSocietyReadWriteDaoMongoImpl } from "../daos/myGate/MyGateSocietyReadWriteImpl"
+import MyGateSocietyReadonlyDaoMongoImpl from "../daos/myGate/MyGateSocietyReadOnlyImpl"
+import { MyGateApprovalsSchema } from "../models/myGate/MyGateApprovalsSchema"
+import { IMyGateApprovalsReadonlyDao, IMyGateApprovalsReadWriteDao } from "../daos/myGate/IMyGateApprovalsDao"
+import { MyGateApprovalsReadonlyDaoMongoImpl } from "../daos/myGate/MyGateApprovalsReadonlyDaoMongoImpl"
+import { MyGateApprovalsReadWriteDaoMongoImpl } from "../daos/myGate/MyGateApprovalsReadWriteDaoMongoImpl"
 
 export function FlashModelsModule(kernel: Inversify.Container): ContainerModule {
     return new Inversify.ContainerModule((bind: Inversify.interfaces.Bind) => {
@@ -56,6 +64,14 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
         bind<DelayWindowSchema>(FLASH_MODELS_TYPES.DelayWindowSchema).to(DelayWindowSchema).inSingletonScope()
         bind<IDelayWindowReadWriteDao>(FLASH_MODELS_TYPES.DelayWindowReadWriteDao).to(DelayWindowReadWriteDaoMongoImpl).inSingletonScope()
         bind<IDelayWindowReadonlyDao>(FLASH_MODELS_TYPES.DelayWindowReadonlyDao).to(DelayWindowReadonlyDaoMongoImpl).inSingletonScope()
+
+        bind<MyGateSocietySchema>(FLASH_MODELS_TYPES.MyGateSocietySchema).to(MyGateSocietySchema).inSingletonScope()
+        bind<IMyGateSocietyReadWriteDao>(FLASH_MODELS_TYPES.MyGateSocietyReadwriteDao).to(MyGateSocietyReadWriteDaoMongoImpl).inSingletonScope()
+        bind<IMyGateSocietyReadonlyDao>(FLASH_MODELS_TYPES.MyGateSocietyReadonlyDao).to(MyGateSocietyReadonlyDaoMongoImpl).inSingletonScope()
+
+        bind<MyGateApprovalsSchema>(FLASH_MODELS_TYPES.MyGateApprovalsSchema).to(MyGateApprovalsSchema).inSingletonScope()
+        bind<IMyGateApprovalsReadWriteDao>(FLASH_MODELS_TYPES.MyGateApprovalsReadwriteDao).to(MyGateApprovalsReadWriteDaoMongoImpl).inSingletonScope()
+        bind<IMyGateApprovalsReadonlyDao>(FLASH_MODELS_TYPES.MyGateApprovalsReadonlyDao).to(MyGateApprovalsReadonlyDaoMongoImpl).inSingletonScope()
 
         bind<AuditTrailSchema>(FLASH_MODELS_TYPES.AuditTrailSchema).to(AuditTrailSchema).inSingletonScope()
         bind<IAuditTrailReadWriteDao>(FLASH_MODELS_TYPES.AuditTrailReadwriteDao).to(AuditTrailReadWriteDaoMongoImpl).inSingletonScope()
