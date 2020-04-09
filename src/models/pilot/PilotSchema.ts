@@ -100,6 +100,10 @@ export class PilotSchema extends MultiMongooseSchema<PilotModel> {
                 type: Number,
                 required: false
             },
+            temperature: {
+                type: Number,
+                required: false
+            },
             status: {
                 type: String,
                 enum: StatusTypes,
