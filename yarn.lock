@@ -43,6 +43,11 @@
   resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.4.1.tgz#2d3f06e1130f8803cc5b9ca5d12a6310672e87d7"
   integrity sha512-vhQcIMur7S8UK4Jsf61OJV6LunwEWQNOKlkJyxAGQw7Um5qwxBI+82LOA4ke5fL/cD8NnNq2HNqe3PNq25d54A==
 
+"@curefit/base-common@^1.5.0":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.5.3.tgz#2dfaf1660111213b8d6e53c1877ccdbc5a6d37d3"
+  integrity sha512-YC21dh49j/yrO8Q0+/WtWBFcdc0HO6UABEQpewtu6FPnnTFs6Vl4eQ07pb4QwP4zLaTejdQPCMr+PFX/LNpFeg==
+
 "@curefit/base@1.5.1":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@curefit/base/-/base-1.5.1.tgz#943190fcf8eb47799cdde5e224e60248d096777f"
@@ -104,19 +109,6 @@
     "@curefit/mongo-utils" "^1.0.1"
     uuid "^3.2.1"
 
-"@curefit/eat-common@5.9.1-stage.4":
-  version "5.9.1-stage.4"
-  resolved "https://registry.yarnpkg.com/@curefit/eat-common/-/eat-common-5.9.1-stage.4.tgz#9ad9e74db99599764a3f5108121d6436f0f5f27e"
-  integrity sha512-8BqHG779QBvhe1mMQzK6efKw01rrXBk8wEs5PNzx10iwsnkA+61coEIgryO9oCXEu2UHtzBdpXMYA4a+6lRn1A==
-  dependencies:
-    "@curefit/base-common" "^1.3.0"
-    "@curefit/finance-common" "^1.3.0"
-    "@curefit/flash-common" "^1.7.2"
-    "@curefit/food-common" "^1.7.1"
-    "@curefit/product-common" "^3.5.0"
-    "@curefit/shipment-common-base" "0.0.1"
-    "@curefit/workflow" "^0.0.2"
-
 "@curefit/eat-common@^1.3.21", "@curefit/eat-common@^1.6.1":
   version "1.8.4"
   resolved "https://registry.yarnpkg.com/@curefit/eat-common/-/eat-common-1.8.4.tgz#12fdcc836cc497bd9456715a5dd9ae4a42000e95"
@@ -138,6 +130,19 @@
     "@curefit/flash-common" "^1.7.2"
     "@curefit/food-common" "^1.7.1"
     "@curefit/product-common" "^3.5.0"
+    "@curefit/shipment-common-base" "0.0.1"
+    "@curefit/workflow" "^0.2.0"
+
+"@curefit/eat-common@^5.8.0":
+  version "5.29.0"
+  resolved "https://registry.yarnpkg.com/@curefit/eat-common/-/eat-common-5.29.0.tgz#72ca45d9dcab45a537c2b444007f8473fc849c7a"
+  integrity sha512-CUFwiHkfLGwLWaT1xyg80+gt7z0oi3pB/fc+oXdbXsf8pp3mIW0qsVmstTOjaXM7ggPFNvEDCWj+uUfqwmbgyQ==
+  dependencies:
+    "@curefit/base-common" "^1.5.0"
+    "@curefit/finance-common" "^1.3.0"
+    "@curefit/flash-common" "^1.7.2"
+    "@curefit/food-common" "^1.7.1"
+    "@curefit/product-common" "3.11.0"
     "@curefit/shipment-common-base" "0.0.1"
     "@curefit/workflow" "^0.2.0"
 
@@ -167,13 +172,13 @@
   resolved "https://registry.yarnpkg.com/@curefit/finance-common/-/finance-common-1.5.0.tgz#606b83df0a7d638304f85d4dda53b01b5035bb51"
   integrity sha512-B/c/c4HMVHOY2J4vf7e1MsYpKczKWl2k2VlEmPPs9ARQiGDw4WezvHD2sRFksrKapBKs4w+hu3OKU4Wse5z4PA==
 
-"@curefit/flash-common@1.12.0-stage", "@curefit/flash-common@^1.7.2":
-  version "1.12.0-stage"
-  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.12.0-stage.tgz#2c534c684999399fbdf73bf72e93684cf3d3a026"
-  integrity sha512-E2GVfPZUoR44Ivqj/4tOopKNFn+XSPFy3sVx2lE95blNWABMpduFav8M7vixaoWo4KsVTnYHOJpx/pntzjdcsw==
+"@curefit/flash-common@^1.13.0", "@curefit/flash-common@^1.7.2":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.13.0.tgz#9f4bc2ef421ec542b797753a006841a0e486bb02"
+  integrity sha512-xIaIg4W2RpoEgwHgASieQThXVYoJyxS64QCWR13OkUnezRH+AQHrULSIci6IItHLscCXZQwpK/qVWBU7tF4hPw==
   dependencies:
     "@curefit/base-common" "^0.0.12"
-    "@curefit/eat-common" "5.9.1-stage.4"
+    "@curefit/eat-common" "^5.8.0"
     "@curefit/workflow-common" "^0.0.4"
 
 "@curefit/food-common@^1.1.0":
@@ -202,6 +207,18 @@
     mongoose "4.9.1"
     mongoose-legacy-pluralize "^1.0.2"
     mongoose-map "1.1.0"
+
+"@curefit/product-common@3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@curefit/product-common/-/product-common-3.11.0.tgz#a3081986c6320911f666636188ea60182f41d700"
+  integrity sha512-86z3vHbiF5yRgn6kbJa6V7CNc1wcjBA8w9zSk3b4ajo1phGq/AlrbzfcXrA2u0MfQqJcoSpiCu1V9uZ9iT+4BA==
+  dependencies:
+    "@curefit/base-common" "^1.3.0"
+    "@curefit/finance-common" "^1.3.0"
+    "@curefit/user-common" "^1.6.0"
+    "@curefit/util-common" "^2.9.3"
+    querystring "^0.2.0"
+    url "^0.11.0"
 
 "@curefit/product-common@^1.4.2":
   version "1.4.2"
@@ -1536,10 +1553,15 @@ tsutils@^2.29.0:
   dependencies:
     tslib "^1.8.1"
 
-typescript@^3.1.6, typescript@^3.4.3:
+typescript@^3.1.6:
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
   integrity sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
+
+typescript@^3.7.4:
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
+  integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
 
 url@^0.11.0:
   version "0.11.0"
