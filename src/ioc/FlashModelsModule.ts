@@ -113,36 +113,3 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
 
     })
 }
-
-
-
-export declare type PaymentRuleType = "UNIT-PAY" | "INCENTIVE" | "PENALTY"
-export declare type PaymentUnitType = "ORDERS_COMPLETED" | "LOGIN_HOURS" | "DESTINATION_ARRIVAL" | "KITCHEN_RETURN" | "DISTANCE_COVERED"
-
-export interface PaymentRule {
-    ruleType: PaymentRuleType
-    unit: number    //  Required unit for eligibility. Will be required unit to avoid deduction, in case of penalty.
-    unitType: PaymentUnitType
-    value: number   // incremented value upon eligibility.
-    limit?: number  // Upper limit of total earned via this rule, in case of UNIT-PAY
-}
-export interface PaymentRuleCard {
-    ruleCardId: string
-    name: string
-    rules: PaymentRule[]
-    createdBy: string
-    active: boolean
-}
-export interface PilotPassbookRuleCard {
-    ruleCardId: string
-    lotIds: string[]
-    startedAt?: any
-    endedAt?: any
-}
-export interface PilotPassbookEntry {
-    date: string
-    pilotId: string
-    ruleCards: PilotPassbookRuleCard[]
-    startedAt?: any
-    endedAt?: any
-}

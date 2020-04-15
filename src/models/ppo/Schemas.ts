@@ -86,14 +86,10 @@ const PilotPassbookEntrySchemaObject = {
     type: [PilotPassbookRuleCardSchemaObject],
     required: true,
   },
-  startedAt: {
-    type: Date,
-    required: false,
-  },
-  endedAt: {
-    type: Date,
-    required: false,
-  },
+  currentRuleCardId: {
+    type: String,
+    required: true,
+  }
 }
 
 @injectable()
