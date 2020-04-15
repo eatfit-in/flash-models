@@ -35,7 +35,7 @@
     "@curefit/base-common": "^1.0.1",
     "@curefit/delivery-models": "^1.1.0",
     "@curefit/eat-common": "^5.13.1",
-    "@curefit/flash-common": "^1.14.0",
+    "@curefit/flash-common": "1.14.0-stage",
     "@curefit/mongo-utils": "^1.0.1",
     "@curefit/schema-mongo": "^1.0.2",
     "@curefit/shipment-models": "^1.23.0",
@@ -43,6 +43,6 @@
     "uuid": "^3.2.1"
   },
   "resolutions": {
-    "@curefit/flash-common": "^1.14.0"
+    "@curefit/flash-common": "1.14.0-stage"
   }
 }

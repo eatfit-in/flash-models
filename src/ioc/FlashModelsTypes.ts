@@ -35,6 +35,18 @@ export const FLASH_MODELS_TYPES = {
     MyGateApprovalsReadwriteDao: "flash-models:MyGateApprovalsReadwriteDao",
     MyGateApprovalsSchema: "flash-models:MyGateApprovalsSchema",
 
+    PilotPassbookEntryReadOnlyPrimaryDao: "ppo-mongo:PilotPassbookEntryReadOnlyPrimaryDao",
+    PilotPassbookEntryReadOnlySecondaryDao: "ppo-mongo:PilotPassbookEntryReadOnlySecondaryDao",
+    PilotPassbookEntryReadWriteDao: "ppo-mongo:PilotPassbookEntryReadWriteDao",
+    PilotPassbookEntryPrimarySchema: "ppo-mongo:PilotPassbookEntryPrimarySchema",
+    PilotPassbookEntrySecondarySchema: "ppo-mongo:PilotPassbookEntrySecondarySchema",
+
+    PaymentRuleCardReadOnlyPrimaryDao: "ppo-mongo:PaymentRuleCardReadOnlyPrimaryDao",
+    PaymentRuleCardReadOnlySecondaryDao: "ppo-mongo:PaymentRuleCardReadOnlySecondaryDao",
+    PaymentRuleCardReadWriteDao: "ppo-mongo:PaymentRuleCardReadWriteDao",
+    PaymentRuleCardPrimarySchema: "ppo-mongo:PaymentRuleCardPrimarySchema",
+    PaymentRuleCardSecondarySchema: "ppo-mongo:PaymentRuleCardSecondarySchema",
+
     AuditTrailReadonlyDao: "flash-models:AuditTrailReadonlyDao",
     AuditTrailReadwriteDao: "flash-models:AuditTrailReadwriteDao",
     AuditTrailSchema: "flash-models:AuditTrailSchema"
