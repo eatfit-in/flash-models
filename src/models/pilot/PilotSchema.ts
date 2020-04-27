@@ -35,6 +35,20 @@ export class PilotSchema extends MultiMongooseSchema<PilotModel> {
                 required: true
             }
         }, { _id: false })
+        const ExtraDetailsSchema = new Schema({
+            temperature: {
+                type: Number,
+                required: false
+            },
+            temperatureUpdatedAt: {
+                type: Date,
+                required: false
+            },
+            remarks: {
+                type: String,
+                required: false
+            }
+        }, { _id: false })
 
         return {
             pilotId: {
@@ -100,12 +114,8 @@ export class PilotSchema extends MultiMongooseSchema<PilotModel> {
                 type: Number,
                 required: false
             },
-            temperature: {
-                type: Number,
-                required: false
-            },
-            temperatureUpdatedAt: {
-                type: Date,
+            extraDetails: {
+                type: ExtraDetailsSchema,
                 required: false
             },
             status: {
