@@ -44,9 +44,9 @@
   integrity sha512-vhQcIMur7S8UK4Jsf61OJV6LunwEWQNOKlkJyxAGQw7Um5qwxBI+82LOA4ke5fL/cD8NnNq2HNqe3PNq25d54A==
 
 "@curefit/base-common@^1.5.0":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.5.3.tgz#2dfaf1660111213b8d6e53c1877ccdbc5a6d37d3"
-  integrity sha512-YC21dh49j/yrO8Q0+/WtWBFcdc0HO6UABEQpewtu6FPnnTFs6Vl4eQ07pb4QwP4zLaTejdQPCMr+PFX/LNpFeg==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.6.0.tgz#101a5a358d5394f30f655fc5d6a092cbdec82def"
+  integrity sha512-0BGaZOSPErJIkdexzp3ISpmiE8DFpk136mHFSr8EZDCv60RWGbEgdcSfuYd2VdJjc6/Qb5SUVmlgcpm1DJmzbg==
 
 "@curefit/base@1.5.1":
   version "1.5.1"
@@ -172,10 +172,10 @@
   resolved "https://registry.yarnpkg.com/@curefit/finance-common/-/finance-common-1.5.0.tgz#606b83df0a7d638304f85d4dda53b01b5035bb51"
   integrity sha512-B/c/c4HMVHOY2J4vf7e1MsYpKczKWl2k2VlEmPPs9ARQiGDw4WezvHD2sRFksrKapBKs4w+hu3OKU4Wse5z4PA==
 
-"@curefit/flash-common@^1.14.0", "@curefit/flash-common@^1.7.2":
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.14.0.tgz#7fc12cb34aefc5f9edc795cd1a41d45a26fbcfac"
-  integrity sha512-tP5Yht7kXvxAltW+VwS6ysonGTAjLWbXJoIrT5ePtSUrUr779hYhO632cAXt8shds8V4jsURWb59yli//xJN9A==
+"@curefit/flash-common@^1.15.0", "@curefit/flash-common@^1.7.2":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.15.0.tgz#5a05f525bce1b14bfed5642fac5d9c5912705c41"
+  integrity sha512-9wzYfb6kzMWrKW7yiNx1+2n+2y6o+MCq+7i5YmXAK66rfjDzVuDOw/neaaTzROaJ8f9LwZPKrcaAmjzIUdgZ4Q==
   dependencies:
     "@curefit/base-common" "^0.0.12"
     "@curefit/eat-common" "^5.8.0"
