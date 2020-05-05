@@ -25,10 +25,22 @@ const PaymentRuleSchemaObject = {
     type: Number,
     required: true,
   },
-  limit: {
+  valueLimit: {
     type: Number,
     required: false,
   },
+  daysCalculatedFor: {
+    type: Number,
+    required: false,
+  },
+  minimumUnits: {
+    type: Number,
+    required: false,
+  },
+  maximumUnits: {
+    type: Number,
+    required: false,
+  }
 }
 
 const PaymentRuleCardSchemaObject = {
@@ -54,7 +66,20 @@ const PaymentRuleCardSchemaObject = {
   },
 }
 
-const PilotPassbookRuleCardSchemaObject = {
+const TempSchema1Object = {
+  field: {
+    type: String,
+    required: true,
+  },
+  oldValue: {
+    required: true,
+  },
+  newValue: {
+    required: true,
+  },
+}
+
+const TempSchema2Object = {
   ruleCardId: {
     type: String,
     required: true,
@@ -63,18 +88,29 @@ const PilotPassbookRuleCardSchemaObject = {
     type: [String],
     required: true,
   },
-  startedAt: {
-    type: Date,
-    required: false,
+}
+
+const PilotPassbookAuditSchemaObject = {
+  changedBy: {
+    type: String,
+    required: true,
   },
-  endedAt: {
+  changes: {
+    type: [TempSchema1Object],
+    required: true,
+  },
+  changedAt: {
     type: Date,
-    required: false,
+    required: true
   },
 }
 
 const PilotPassbookEntrySchemaObject = {
-  date: {
+  startDate: {
+    type: String,
+    required: true,
+  },
+  endDate: {
     type: String,
     required: true,
   },
@@ -82,14 +118,26 @@ const PilotPassbookEntrySchemaObject = {
     type: String,
     required: true,
   },
-  ruleCards: {
-    type: [PilotPassbookRuleCardSchemaObject],
-    required: true,
-  },
-  currentRuleCardId: {
+  centerId: {
     type: String,
     required: true,
-  }
+  },
+  ruleCardId: {
+    type: String,
+    required: true,
+  },
+  lotIds: {
+    type: [String],
+    required: true,
+  },
+  surgePricing: {
+    type: [TempSchema2Object],
+    required: false,
+  },
+  auditTrails: {
+    type: [PilotPassbookAuditSchemaObject],
+    required: false,
+  },
 }
 
 @injectable()
