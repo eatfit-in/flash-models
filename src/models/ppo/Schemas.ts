@@ -1,7 +1,7 @@
 import { MONGO_TYPES, MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
 import { inject, injectable } from "inversify"
 import { BASE_TYPES, ILogger } from "@curefit/base"
-
+import { SchemaTypes } from "mongoose"
 import { PaymentRuleCardModel } from "./Models"
 import { PilotPassbookEntryModel } from "./Models"
 import { PaymentRuleTypes, PaymentUnitTypes } from "@curefit/flash-common"
@@ -72,9 +72,11 @@ const TempSchema1Object = {
     required: true,
   },
   oldValue: {
+    type: SchemaTypes.Mixed,
     required: true,
   },
   newValue: {
+    type: SchemaTypes.Mixed,
     required: true,
   },
 }
