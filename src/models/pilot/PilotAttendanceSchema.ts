@@ -1,11 +1,12 @@
-import { MONGO_TYPES, MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
+import { CompositeIndex, MONGO_TYPES, MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
 import { inject, injectable } from "inversify"
 import { BASE_TYPES, ILogger } from "@curefit/base"
 
 import { PilotAttendanceModel } from "./PilotAttendanceModel"
 import { HourMinSchema } from "@curefit/schema-mongo"
+import { Schema } from "mongoose"
 
-const LoginDetailsSchemaObject = {
+const LoginDetailsSchemaObject = new Schema({
   start: {
     type: HourMinSchema,
     required: true,
@@ -14,7 +15,7 @@ const LoginDetailsSchemaObject = {
     type: HourMinSchema,
     required: false,
   },
-}
+}, { _id: false })
 
 const PilotAttendanceSchemaObject = {
   pilotId: {
@@ -43,6 +44,16 @@ export class PilotAttendanceSchema extends MultiMongooseSchema<PilotAttendanceMo
 
   protected schema() {
     return PilotAttendanceSchemaObject
+  }
+
+  protected getCompositeUniqueIndex(): any {
+    return { pilotId: 1, date: -1 }
+  }
+
+  protected getAllCompositeIndexes(): CompositeIndex[] {
+    return [
+      { pilotId: 1, date: -1 }
+    ]
   }
 }
 
