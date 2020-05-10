@@ -1,4 +1,4 @@
-import { MONGO_TYPES, MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
+import { CompositeIndex, MONGO_TYPES, MultiMongooseAccess, MultiMongooseSchema } from "@curefit/mongo-utils"
 import { inject, injectable } from "inversify"
 import { BASE_TYPES, ILogger } from "@curefit/base"
 import { SchemaTypes } from "mongoose"
@@ -47,10 +47,12 @@ const PaymentRuleCardSchemaObject = {
   ruleCardId: {
     type: String,
     required: true,
+    index: true,
   },
   name: {
     type: String,
     required: true,
+    index: true,
   },
   rules: {
     type: [PaymentRuleSchemaObject],
@@ -63,6 +65,7 @@ const PaymentRuleCardSchemaObject = {
   active: {
     type: Boolean,
     required: true,
+    index: true,
   },
 }
 
@@ -111,22 +114,27 @@ const PilotPassbookEntrySchemaObject = {
   startDate: {
     type: String,
     required: true,
+    index: true,
   },
   endDate: {
     type: String,
     required: true,
+    index: true,
   },
   pilotId: {
     type: String,
     required: true,
+    index: true,
   },
   centerId: {
     type: String,
     required: true,
+    index: true,
   },
   ruleCardId: {
     type: String,
     required: true,
+    index: true,
   },
   lotIds: {
     type: [String],
@@ -150,6 +158,16 @@ export class PaymentRuleCardSchema extends MultiMongooseSchema<PaymentRuleCardMo
 
   protected schema() {
     return PaymentRuleCardSchemaObject
+  }
+
+  protected getCompositeUniqueIndex(): any {
+    return { ruleCardId: 1, active: 1 }
+  }
+
+  protected getAllCompositeIndexes(): CompositeIndex[] {
+    return [
+      {ruleCardId: 1, active: 1}
+    ]
   }
 }
 
@@ -175,6 +193,16 @@ export class PilotPassbookEntrySchema extends MultiMongooseSchema<PilotPassbookE
 
   protected schema() {
     return PilotPassbookEntrySchemaObject
+  }
+
+  protected getCompositeUniqueIndex(): any {
+    return { ruleCardId: 1, centerId: 1, pilotId: 1 }
+  }
+
+  protected getAllCompositeIndexes(): CompositeIndex[] {
+    return [
+      { ruleCardId: 1, centerId: 1, pilotId: 1 }
+    ]
   }
 }
 
