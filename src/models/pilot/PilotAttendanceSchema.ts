@@ -3,14 +3,15 @@ import { inject, injectable } from "inversify"
 import { BASE_TYPES, ILogger } from "@curefit/base"
 
 import { PilotAttendanceModel } from "./PilotAttendanceModel"
+import { HourMinSchema } from "@curefit/schema-mongo"
 
 const LoginDetailsSchemaObject = {
   start: {
-    type: Date,
+    type: HourMinSchema,
     required: true,
   },
   end: {
-    type: Date,
+    type: HourMinSchema,
     required: false,
   },
 }
