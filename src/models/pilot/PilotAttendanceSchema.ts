@@ -24,7 +24,8 @@ const PilotAttendanceSchemaObject = {
     type: String,
     required: true,
   },
-  loginHours: {
+  loginMinutes: {
+    type: Number,
     required: false,
   },
   logins: {
