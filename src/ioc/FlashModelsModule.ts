@@ -55,6 +55,9 @@ import {
     PaymentRuleCardReadWriteDaoMongoImpl,
     PilotPassbookEntryReadOnlyDaoFactory, PilotPassbookEntryReadWriteDaoMongoImpl
 } from "../daos/ppo/DaoImpls"
+import { PilotAttendanceSchema, PilotAttendanceSchemaFactory } from "../models/pilot/PilotAttendanceSchema"
+import { IPilotAttendanceReadOnlyDao, IPilotAttendanceReadWriteDao } from "../daos/IPilotAttendanceDao"
+import { PilotAttendanceReadOnlyDaoFactory, PilotAttendanceReadWriteDaoMongoImpl } from "../daos/PilotAttendanceDaoImpl"
 
 export function FlashModelsModule(kernel: Inversify.Container): ContainerModule {
     return new Inversify.ContainerModule((bind: Inversify.interfaces.Bind) => {
@@ -110,6 +113,13 @@ export function FlashModelsModule(kernel: Inversify.Container): ContainerModule 
         bind<IPilotShiftReadonlyDao>(FLASH_MODELS_TYPES.PilotShiftReadonlyDao).to(PilotShiftReadonlyDaoMongoImpl).inSingletonScope()
 
         bind<PilotStateHistorySchema>(FLASH_MODELS_TYPES.PilotStateHistorySchema).to(PilotStateHistorySchema).inSingletonScope()
+
+        bind<PilotAttendanceSchema>(FLASH_MODELS_TYPES.PilotAttendancePrimarySchema).to(PilotAttendanceSchemaFactory(ReadPreference.PRIMARY)).inSingletonScope()
+        bind<PilotAttendanceSchema>(FLASH_MODELS_TYPES.PilotAttendanceSecondarySchema).to(PilotAttendanceSchemaFactory(ReadPreference.SECONDARY_PREFERRED)).inSingletonScope()
+        bind<IPilotAttendanceReadOnlyDao>(FLASH_MODELS_TYPES.PilotAttendanceReadOnlyPrimaryDao).to(PilotAttendanceReadOnlyDaoFactory(ReadPreference.PRIMARY)).inSingletonScope()
+        bind<IPilotAttendanceReadOnlyDao>(FLASH_MODELS_TYPES.PilotAttendanceReadOnlySecondaryDao).to(PilotAttendanceReadOnlyDaoFactory(ReadPreference.SECONDARY_PREFERRED)).inSingletonScope()
+        bind<IPilotAttendanceReadWriteDao>(FLASH_MODELS_TYPES.PilotAttendanceReadWriteDao).to(PilotAttendanceReadWriteDaoMongoImpl).inSingletonScope()
+
 
     })
 }
