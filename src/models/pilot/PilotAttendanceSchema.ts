@@ -36,7 +36,7 @@ const PilotAttendanceSchemaObject = {
 @injectable()
 export class PilotAttendanceSchema extends MultiMongooseSchema<PilotAttendanceModel> {
   constructor(mongooseAccess: MultiMongooseAccess, readPreference?: string) {
-    super(mongooseAccess, "PilotAttendance", "DEFAULT", readPreference)
+    super(mongooseAccess, "PilotAttendances", "DEFAULT", readPreference)
   }
 
   protected schema() {
