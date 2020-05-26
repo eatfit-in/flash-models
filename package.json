@@ -1,6 +1,6 @@
 {
   "name": "@curefit/flash-models",
-  "version": "1.16.0-stage.7",
+  "version": "1.16.0-stage.8",
   "description": "A HTTP Client to hit flash servers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -35,7 +35,7 @@
     "@curefit/base-common": "^1.0.1",
     "@curefit/delivery-models": "^1.1.0",
     "@curefit/eat-common": "^5.13.1",
-    "@curefit/flash-common": "1.15.0-stage.5",
+    "@curefit/flash-common": "1.15.0-stage.7",
     "@curefit/mongo-utils": "^1.0.1",
     "@curefit/schema-mongo": "^1.0.2",
     "@curefit/shipment-models": "^1.23.0",
@@ -43,6 +43,6 @@
     "uuid": "^3.2.1"
   },
   "resolutions": {
-    "@curefit/flash-common": "1.15.0-stage.5"
+    "@curefit/flash-common": "1.15.0-stage.7"
   }
 }

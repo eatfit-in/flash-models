@@ -12,6 +12,10 @@ const PaymentRuleSchemaObject = {
     enum: PaymentRuleTypes,
     required: true,
   },
+  ruleName: {
+    type: String,
+    required: true,
+  },
   unit: {
     type: Number,
     required: true,
