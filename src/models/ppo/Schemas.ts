@@ -5,8 +5,9 @@ import { SchemaTypes } from "mongoose"
 import { PaymentRuleCardModel } from "./Models"
 import { PilotPassbookEntryModel } from "./Models"
 import { PaymentRuleTypes, PaymentUnitTypes } from "@curefit/flash-common"
+import { Schema } from "mongoose"
 
-const PaymentRuleSchemaObject = {
+const PaymentRuleSchemaObject = new Schema({
   ruleType: {
     type: String,
     enum: PaymentRuleTypes,
@@ -45,7 +46,7 @@ const PaymentRuleSchemaObject = {
     type: Number,
     required: false,
   }
-}
+}, { _id: false })
 
 const PaymentRuleCardSchemaObject = {
   ruleCardId: {
@@ -73,7 +74,7 @@ const PaymentRuleCardSchemaObject = {
   },
 }
 
-const TempSchema1Object = {
+const TempSchema1Object = new Schema({
   field: {
     type: String,
     required: true,
@@ -86,9 +87,9 @@ const TempSchema1Object = {
     type: SchemaTypes.Mixed,
     required: true,
   },
-}
+}, { _id: false })
 
-const TempSchema2Object = {
+const TempSchema2Object = new Schema({
   ruleCardId: {
     type: String,
     required: true,
@@ -97,9 +98,9 @@ const TempSchema2Object = {
     type: [String],
     required: true,
   },
-}
+}, { _id: false })
 
-const PilotPassbookAuditSchemaObject = {
+const PilotPassbookAuditSchemaObject = new Schema({
   changedBy: {
     type: String,
     required: true,
@@ -112,7 +113,7 @@ const PilotPassbookAuditSchemaObject = {
     type: Date,
     required: true
   },
-}
+}, { _id: false })
 
 const PilotPassbookEntrySchemaObject = {
   startDate: {
@@ -164,13 +165,10 @@ export class PaymentRuleCardSchema extends MultiMongooseSchema<PaymentRuleCardMo
     return PaymentRuleCardSchemaObject
   }
 
-  protected getCompositeUniqueIndex(): any {
-    return { ruleCardId: 1, active: 1 }
-  }
-
   protected getAllCompositeIndexes(): CompositeIndex[] {
     return [
-      {ruleCardId: 1, active: 1}
+      { ruleCardId: 1, active: 1 },
+      { name: 1, active: 1 }
     ]
   }
 }
@@ -199,13 +197,10 @@ export class PilotPassbookEntrySchema extends MultiMongooseSchema<PilotPassbookE
     return PilotPassbookEntrySchemaObject
   }
 
-  protected getCompositeUniqueIndex(): any {
-    return { ruleCardId: 1, centerId: 1, pilotId: 1 }
-  }
-
   protected getAllCompositeIndexes(): CompositeIndex[] {
     return [
-      { ruleCardId: 1, centerId: 1, pilotId: 1 }
+      { pilotId: 1, centerId: 1, startDate: 1, endDate: 1 },
+      { pilotId: 1, startDate: 1, endDate: 1 },
     ]
   }
 }
