@@ -35,6 +35,24 @@ export const FLASH_MODELS_TYPES = {
     MyGateApprovalsReadwriteDao: "flash-models:MyGateApprovalsReadwriteDao",
     MyGateApprovalsSchema: "flash-models:MyGateApprovalsSchema",
 
+    PilotPassbookEntryReadOnlyPrimaryDao: "flash-models:PilotPassbookEntryReadOnlyPrimaryDao",
+    PilotPassbookEntryReadOnlySecondaryDao: "flash-models:PilotPassbookEntryReadOnlySecondaryDao",
+    PilotPassbookEntryReadWriteDao: "flash-models:PilotPassbookEntryReadWriteDao",
+    PilotPassbookEntryPrimarySchema: "flash-models:PilotPassbookEntryPrimarySchema",
+    PilotPassbookEntrySecondarySchema: "flash-models:PilotPassbookEntrySecondarySchema",
+
+    PaymentRuleCardReadOnlyPrimaryDao: "flash-models:PaymentRuleCardReadOnlyPrimaryDao",
+    PaymentRuleCardReadOnlySecondaryDao: "flash-models:PaymentRuleCardReadOnlySecondaryDao",
+    PaymentRuleCardReadWriteDao: "flash-models:PaymentRuleCardReadWriteDao",
+    PaymentRuleCardPrimarySchema: "flash-models:PaymentRuleCardPrimarySchema",
+    PaymentRuleCardSecondarySchema: "flash-models:PaymentRuleCardSecondarySchema",
+
+    PilotAttendanceReadOnlyPrimaryDao: "flash-models:PilotAttendanceReadOnlyPrimaryDao",
+    PilotAttendanceReadOnlySecondaryDao: "flash-models:PilotAttendanceReadOnlySecondaryDao",
+    PilotAttendanceReadWriteDao: "flash-models:PilotAttendanceReadWriteDao",
+    PilotAttendancePrimarySchema: "flash-models:PilotAttendancePrimarySchema",
+    PilotAttendanceSecondarySchema: "flash-models:PilotAttendanceSecondarySchema",
+
     AuditTrailReadonlyDao: "flash-models:AuditTrailReadonlyDao",
     AuditTrailReadwriteDao: "flash-models:AuditTrailReadwriteDao",
     AuditTrailSchema: "flash-models:AuditTrailSchema"
