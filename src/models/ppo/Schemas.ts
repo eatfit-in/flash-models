@@ -199,8 +199,9 @@ export class PilotPassbookEntrySchema extends MultiMongooseSchema<PilotPassbookE
 
   protected getAllCompositeIndexes(): CompositeIndex[] {
     return [
-      { pilotId: 1, centerId: 1, startDate: 1, endDate: 1 },
-      { pilotId: 1, startDate: 1, endDate: 1 },
+      { pilotId: 1, startDate: 1, endDate: 1, centerId: 1 },
+      { centerId: 1, startDate: 1, endDate: 1 },
+      { pilotId: 1, centerId: 1 }
     ]
   }
 }
