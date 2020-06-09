@@ -2,7 +2,7 @@ import { inject, injectable } from "inversify"
 import * as _ from "lodash"
 import { Schema } from "mongoose"
 import { LogisticsProviders, LotAssignmentStatuses, PilotStatuses, ShipmentStatuses } from "@curefit/eat-common"
-import { MultiMongooseSchema, MultiMongooseAccess, MONGO_TYPES } from "@curefit/mongo-utils"
+import { MultiMongooseSchema, MultiMongooseAccess, MONGO_TYPES, CompositeIndex } from "@curefit/mongo-utils"
 import { LotModel } from "./LotModel"
 import { DeliveryAddressSchema } from "../userDeliveryAddress/DeliveryAddressSchema"
 
@@ -281,6 +281,11 @@ export class LotSchema extends MultiMongooseSchema<LotModel> {
         }
     }
 
+    protected getAllCompositeIndexes(): CompositeIndex[] {
+        return [
+            { pilotId: 1, date: 1 }
+        ]
+    }
 }
 
 

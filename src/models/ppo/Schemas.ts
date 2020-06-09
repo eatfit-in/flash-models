@@ -141,10 +141,6 @@ const PilotPassbookEntrySchemaObject = {
     required: true,
     index: true,
   },
-  lotIds: {
-    type: [String],
-    required: true,
-  },
   surgePricing: {
     type: [TempSchema2Object],
     required: false,
