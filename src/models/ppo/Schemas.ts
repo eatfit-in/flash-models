@@ -141,10 +141,6 @@ const PilotPassbookEntrySchemaObject = {
     required: true,
     index: true,
   },
-  lotIds: {
-    type: [String],
-    required: true,
-  },
   surgePricing: {
     type: [TempSchema2Object],
     required: false,
@@ -201,7 +197,8 @@ export class PilotPassbookEntrySchema extends MultiMongooseSchema<PilotPassbookE
     return [
       { pilotId: 1, startDate: 1, endDate: 1, centerId: 1 },
       { centerId: 1, startDate: 1, endDate: 1 },
-      { pilotId: 1, centerId: 1 }
+      { pilotId: 1, centerId: 1 },
+      { ruleCardId: 1, startDate: 1 }
     ]
   }
 }
