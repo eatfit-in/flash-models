@@ -63,6 +63,10 @@ const PaymentRuleCardSchemaObject = {
     type: [PaymentRuleSchemaObject],
     required: true,
   },
+  conditions: {
+    type: SchemaTypes.Mixed,
+    required: false,
+  },
   createdBy: {
     type: String,
     required: true,
