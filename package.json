@@ -32,7 +32,7 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "@curefit/base": "^1.0.1",
+    "@curefit/base": "6.13.2",
     "@curefit/base-common": "^1.0.1",
     "@curefit/delivery-models": "^1.1.0",
     "@curefit/eat-common": "^5.13.1",
@@ -44,6 +44,9 @@
     "uuid": "^3.2.1"
   },
   "resolutions": {
-    "@curefit/flash-common": "^1.18.0"
+    "@curefit/flash-common": "^1.18.0",
+    "@curefit/base": "6.13.2",
+    "@curefit/user-common": "2.3.0",
+    "@curefit/diy-common": "4.42.0"
   }
 }
