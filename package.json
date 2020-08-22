@@ -48,6 +48,7 @@
     "@curefit/base": "6.13.2",
     "@curefit/user-common": "2.3.0",
     "@curefit/diy-common": "4.42.0",
-    "@curefit/eat-common": "^7.48.0"
+    "@curefit/eat-common": "^7.48.0",
+    "@curefit/aztec-models": "1.3.0"
   }
 }

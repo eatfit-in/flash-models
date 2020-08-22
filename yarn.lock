@@ -36,10 +36,10 @@
     "@curefit/user-common" "2.1.1"
     "@curefit/vm-common" "1.45.13"
 
-"@curefit/aztec-models@^1.0.5":
-  version "1.3.3"
-  resolved "https://registry.npmjs.org/@curefit/aztec-models/-/aztec-models-1.3.3.tgz#3055a1cb3c055a17c24754cb1ac731a052f0c454"
-  integrity sha512-SmCjmHU+lhjv261B6kMbH6V1mXSYGEpY8HhdhfTSPVfcmEs9Lu7+1UL+6a+7itBj0Y9Sddw7a+9WD4FJ5LxRPQ==
+"@curefit/aztec-models@1.3.0", "@curefit/aztec-models@^1.0.5":
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/@curefit/aztec-models/-/aztec-models-1.3.0.tgz#e9284ed9c07d88f4c89adc91a62bcf5fb72ba144"
+  integrity sha512-Uggtu3AzQ41UPFIYPzPD2tHJY4qBCBe1Le3pGaHAEur4rf2FkwlkwYyU8zOnM0F13iwB4qJErdQn8ibv2TIoJA==
   dependencies:
     "@curefit/base-common" "^1.6.0"
 
