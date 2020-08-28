@@ -20,7 +20,7 @@
 
 "@curefit/apps-common@^1.12.0":
   version "1.21.5"
-  resolved "https://registry.npmjs.org/@curefit/apps-common/-/apps-common-1.21.5.tgz#2b1d5913aa683bbc75799348ffa6ef4a19a57dff"
+  resolved "https://npm.pkg.github.com/download/@curefit/apps-common/1.21.5/25e44cf80f0d0be30a653ed1f3629b168758a477501b63a91a3c5e46e9e56297#2b1d5913aa683bbc75799348ffa6ef4a19a57dff"
   integrity sha512-SSz1BfTUFasItlAg19nnmKs/hrulKsk43q8Zim1ok9FgMvNUPZkyvp/XjSLgHVQCsuhxnyt+0+wopQ98AZI+Iw==
   dependencies:
     "@curefit/base-common" "1.7.0"
@@ -36,67 +36,52 @@
     "@curefit/user-common" "2.1.1"
     "@curefit/vm-common" "1.45.13"
 
-"@curefit/aztec-models@1.3.0", "@curefit/aztec-models@^1.0.5":
+"@curefit/aztec-models@1.3.0":
   version "1.3.0"
-  resolved "https://registry.npmjs.org/@curefit/aztec-models/-/aztec-models-1.3.0.tgz#e9284ed9c07d88f4c89adc91a62bcf5fb72ba144"
+  resolved "https://npm.pkg.github.com/download/@curefit/aztec-models/1.3.0/bdbfd5ddb42ea28e35c414ec2a7f2d505481e9257e457452796380dc707a8b9c#e9284ed9c07d88f4c89adc91a62bcf5fb72ba144"
   integrity sha512-Uggtu3AzQ41UPFIYPzPD2tHJY4qBCBe1Le3pGaHAEur4rf2FkwlkwYyU8zOnM0F13iwB4qJErdQn8ibv2TIoJA==
   dependencies:
     "@curefit/base-common" "^1.6.0"
 
 "@curefit/base-common@1.3.0":
   version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.3.0.tgz#3592e3b036be43a8f8850464a03c188bd5644a57"
+  resolved "https://npm.pkg.github.com/download/@curefit/base-common/1.3.0/ef3ad4bf52b0befb4208eb8ea1fc5a30273e9d6cbef198dd03a1b11f586c6fd6#3592e3b036be43a8f8850464a03c188bd5644a57"
   integrity sha512-YS1iw5oBdLQldOuTwlGVAIlILPyQVrPs5c9xKvH0GSARG2ek4uQe6nu8HUsey1t2Lbt68zC28s3g+D6eLo/9oQ==
-
-"@curefit/base-common@1.3.2":
-  version "1.3.2"
-  resolved "https://registry.npmjs.org/@curefit/base-common/-/base-common-1.3.2.tgz#891db8c47ca509f94bc02720bd7362408c3d7797"
-  integrity sha512-Qhk3/jl7L1RydFSDNqmATuGlzWnVRRvR0q0R494TVMq1Cszo9fuHPN0BTITT1Alm1sq79KTNKwvHJaUoDD/LLA==
 
 "@curefit/base-common@1.5.1":
   version "1.5.1"
-  resolved "https://registry.npmjs.org/@curefit/base-common/-/base-common-1.5.1.tgz#456e117030e8531e58596769e6632721c971b894"
+  resolved "https://npm.pkg.github.com/download/@curefit/base-common/1.5.1/2c97002c5f80dfa29054a8bfdc9dbec6564b64706a3b5c7c0ec5dead35ec7587#456e117030e8531e58596769e6632721c971b894"
   integrity sha512-JAhoztROF6GVzlT0ogQGRb+mcCh3l+6laidHq8nEa8JiP6wki4eFQ3w8ziigaPVr5ys+oHrt664nzT+vmm8ItA==
 
 "@curefit/base-common@1.5.2":
   version "1.5.2"
-  resolved "https://registry.npmjs.org/@curefit/base-common/-/base-common-1.5.2.tgz#fa7e1a9764b9d15a9de4d279c40fedecaab1b953"
+  resolved "https://npm.pkg.github.com/download/@curefit/base-common/1.5.2/95c3c17a90708dfe6e1f30eea457ed63502b7431714237c4fe52ff74a70d230c#fa7e1a9764b9d15a9de4d279c40fedecaab1b953"
   integrity sha512-n8klG2nBEVj1mPDxdvsKjw3VQdEFjaRkPJe1SMijdsEr2566Nenewht7gCnvEQ1JR6NpV8x+X6O/sI1U6vMCLg==
 
 "@curefit/base-common@1.6.0":
   version "1.6.0"
-  resolved "https://registry.npmjs.org/@curefit/base-common/-/base-common-1.6.0.tgz#101a5a358d5394f30f655fc5d6a092cbdec82def"
+  resolved "https://npm.pkg.github.com/download/@curefit/base-common/1.6.0/d98dc92aac053d24f802f4fe25c01599cad9ba73ad0c99428448d454c29fb5be#101a5a358d5394f30f655fc5d6a092cbdec82def"
   integrity sha512-0BGaZOSPErJIkdexzp3ISpmiE8DFpk136mHFSr8EZDCv60RWGbEgdcSfuYd2VdJjc6/Qb5SUVmlgcpm1DJmzbg==
 
-"@curefit/base-common@1.7.0", "@curefit/base-common@^1.4.1", "@curefit/base-common@^1.5.1", "@curefit/base-common@^1.6.0", "@curefit/base-common@^1.7.0":
+"@curefit/base-common@1.7.0", "@curefit/base-common@^1.0.1", "@curefit/base-common@^1.2.0", "@curefit/base-common@^1.3.0", "@curefit/base-common@^1.3.2", "@curefit/base-common@^1.4.1", "@curefit/base-common@^1.5.0", "@curefit/base-common@^1.5.1", "@curefit/base-common@^1.6.0", "@curefit/base-common@^1.7.0":
   version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.7.0.tgz#775272a0764362a1790d779b1e5936de40dcb06b"
+  resolved "https://npm.pkg.github.com/download/@curefit/base-common/1.7.0/e3fb66aa1f7124ca765ebc37034eeb6d65beba5f8426d2d69a14fd77e5836c92#775272a0764362a1790d779b1e5936de40dcb06b"
   integrity sha512-8VWJ7HUs30ZgJeFIZXJRupno8bJSfFxgfk/hMqtq1BILCKStUlRUNPbSKimO8Qior0RwdpDYqA3DG6x0csIyOw==
 
 "@curefit/base-common@^0.0.12":
   version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-0.0.12.tgz#483faf6f02b5276b7ae52e4f40dc4b8f54cb5c42"
+  resolved "https://npm.pkg.github.com/download/@curefit/base-common/0.0.12/2e22162e95c47b02ee8bba505e514f6e33f8271d8f8e14ed61fab0e1c3a12efc#483faf6f02b5276b7ae52e4f40dc4b8f54cb5c42"
   integrity sha512-Yh9PqHf0q1l2fsKb52nv4y72TLCwKWC3rn7Iy9+0XWCi/GxhY5Bv73vBhd7VNmkHcfeBB6NFL8cztj7mUNCuKA==
 
-"@curefit/base-common@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-0.0.8.tgz#fe3ab8b914a7e656b7d38501ddb6e051988ff72f"
-  integrity sha512-kWjDmA7frSqWR8ndUTBKh4wjiRhuH7+JL8cxOzc2qOM7hW6TYn70Yx+waWQ83Nv+7NG7+Z/l5IOXtwtbmwWi5A==
+"@curefit/base-common@^2.1.2", "@curefit/base-common@^2.2.0":
+  version "2.2.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/base-common/2.2.0/25514bb66854acef7adc5382aa7e953b1f58e87eadd253920d243a2ed9460cd0#71e1b1527fcf29f411c38d04e47c7c78d0d64a43"
+  integrity sha512-SLnPc8x4hGwtWk7aXGA7Zbz/96hC9LigXggF0yph97h5ZMdspoIK40saHbPdy57NhjMZkNIxCMXj++vZraFI9g==
 
-"@curefit/base-common@^1.0.1", "@curefit/base-common@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.2.0.tgz#16dd0e7546644ae896116e4bb8373beba4c179ed"
-  integrity sha512-PrTC5Hl8ZyAI0CFkJ24DcQ6KWSsYflZfgrHDrBhDKwpmcThyU7f2C/qCvfbocTpqXRq6JzfxNWgv8q/OpKaXFw==
-
-"@curefit/base-common@^1.3.0", "@curefit/base-common@^1.3.2":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@curefit/base-common/-/base-common-1.4.1.tgz#2d3f06e1130f8803cc5b9ca5d12a6310672e87d7"
-  integrity sha512-vhQcIMur7S8UK4Jsf61OJV6LunwEWQNOKlkJyxAGQw7Um5qwxBI+82LOA4ke5fL/cD8NnNq2HNqe3PNq25d54A==
-
-"@curefit/base@1.5.1", "@curefit/base@6.13.2", "@curefit/base@^1.0.1", "@curefit/base@^1.5.1", "@curefit/base@^3.3.0", "@curefit/base@^6.9.0":
+"@curefit/base@1.5.1", "@curefit/base@6.13.2", "@curefit/base@^1.5.1", "@curefit/base@^1.6.0", "@curefit/base@^3.3.0", "@curefit/base@^3.3.2", "@curefit/base@^6.13.4", "@curefit/base@^6.2.0", "@curefit/base@^6.9.0":
   version "6.13.2"
-  resolved "https://registry.npmjs.org/@curefit/base/-/base-6.13.2.tgz#85c5e07c709d45043bb468b901310dab6e338feb"
-  integrity sha512-xWvgbz88QN2RKgwXrt9r1q6ZC4xrjKQJpiqNdPBb/hPni2rzBv8SKOEfMukdrWVeybGuGKM1gVf34F0Virxssw==
+  resolved "https://npm.pkg.github.com/download/@curefit/base/6.13.2/e1ed241b466656c71325abaccee75055e7d8a9533866a7b7b44259327d18706d#acbbef58a2a1046baa7b1b6269f62099c592a376"
+  integrity sha512-kBuqoP2iOvAJodwRITrr1W1WpqoAkb1VK43alXone0lsnG0E+M2TS9siYOgyzfF9kcWLJmd947awKmyPcrYQdg==
   dependencies:
     "@curefit/error-client" "^4.1.0"
     cls-hooked "4.2.2"
@@ -112,16 +97,16 @@
 
 "@curefit/care-common@2.2.8", "@curefit/care-common@2.3.15", "@curefit/care-common@2.34.0", "@curefit/care-common@^1.1.9", "@curefit/care-common@^2.1.2":
   version "2.34.0"
-  resolved "https://registry.npmjs.org/@curefit/care-common/-/care-common-2.34.0.tgz#4e1ff151bdfbb81a4bd2f1f6dc34d77e006a6579"
-  integrity sha512-GpfuJ8Bo1QtibarULU0lS9c4TVh2Jz8cXoMamm+J/1EnHBNnvVl0BtBPNeZppott69hPmBeIWyobW/sxhMb8ow==
+  resolved "https://npm.pkg.github.com/download/@curefit/care-common/2.34.0/246b3c2d765abfb3844b40b9d0bf2ca81c8ca8a288adb4a40a5cb75e0d5871f1#39aeb0afb22b8e637359a32a77aa3064da73d45d"
+  integrity sha512-QHzKntua6/xN2TO6bRoN9o2wC4jItMgWk8+v6mEIH0FHWlGW3aBGjqOoeMeVhgWUgMHg+tf9hFwee+PHmXTCGg==
   dependencies:
     "@curefit/base-common" "^1.3.0"
     "@curefit/product-common" "4.1.3"
     barrelsby "^1.0.2"
 
-"@curefit/config-mongo@^1.5.0":
+"@curefit/config-mongo@^1.17.0", "@curefit/config-mongo@^1.5.0":
   version "1.27.0"
-  resolved "https://registry.npmjs.org/@curefit/config-mongo/-/config-mongo-1.27.0.tgz#cff364c4edf5f18bbd9b02fee9b6e3da479abb59"
+  resolved "https://npm.pkg.github.com/download/@curefit/config-mongo/1.27.0/13b887ad9f6208bf4a7b40b13a9002f7f3a6cf2a3dabd8dfa04860f9c928d8bb#cff364c4edf5f18bbd9b02fee9b6e3da479abb59"
   integrity sha512-1t23kvsVuMnycIZP1vlZc6TXv/gvBddidyh2GobzhVTz8J2E2Xgiwmfkrb7AWSrrtN5CYUaXly1MBy/ppUZILQ==
   dependencies:
     "@curefit/base" "^3.3.0"
@@ -134,39 +119,45 @@
     "@curefit/product-common" "^3.4.1"
 
 "@curefit/constello-common@^1.7.3":
-  version "1.25.0"
-  resolved "https://registry.npmjs.org/@curefit/constello-common/-/constello-common-1.25.0.tgz#fedbf4ea1c9be98adf4f2bb46306bf22cf52dafe"
-  integrity sha512-aczmxev8sbV7mOzAaJEVZE+bzSOi3kK26La9//HPjh/qgkrkTlbTQ5Gw+H3UUwIHcjYcdUXTrsCn5XdmxmtSsQ==
+  version "1.26.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/constello-common/1.26.0/48e5b49de4056e9b047872b5efdfdcb6dab06700a747993a765c2cfce99f6564#7e7d0e4d10d96a56d1d2e4d9d23dd23c7fd237f3"
+  integrity sha512-V3XUaEGFpg83N0CQH31IU1GNhWUisVoOUgbEup586ILbPCfAniDMayaCUFRnVevDb5VDzaNZ8vbeEcpnQTHHQA==
   dependencies:
-    "@curefit/base-common" "^1.5.1"
-    "@curefit/cult-common" "2.26.0"
-    "@curefit/events-common" "1.9.0"
-    "@curefit/fitcash-common" "1.2.2"
-    "@curefit/iris-common" "^1.23.0"
-    "@curefit/logging-common" "1.6.0"
-    "@curefit/offer-common" "^2.3.2"
-    "@curefit/user-common" "^2.1.1"
+    "@curefit/base-common" "^2.1.2"
+    "@curefit/cult-common" "^2.50.0"
+    "@curefit/events-common" "^1.12.3"
+    "@curefit/fitcash-common" "^1.6.3"
+    "@curefit/iris-common" "^1.28.0"
+    "@curefit/logging-common" "^1.16.2"
+    "@curefit/offer-common" "^2.40.3"
+    "@curefit/order-common" "^5.40.1"
+    "@curefit/user-common" "2.3.0"
 
-"@curefit/cult-common@2.26.0":
-  version "2.26.0"
-  resolved "https://registry.npmjs.org/@curefit/cult-common/-/cult-common-2.26.0.tgz#935c7749e4b25ce06cfaa18ee8adae753b848def"
-  integrity sha512-6oZQ9kCZEpVF5DBeqvevXLX0sNvsrehMohqBxItOa4MniiWvYkpfAyprv+tjvethixzH4oJB5od3FyNlgBzUeA==
+"@curefit/cult-common@^2.50.0":
+  version "2.52.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/cult-common/2.52.0/22b1b68fb799f65f7791339a717d0a48184406be629cf58e91759cc707b7c5d2#3fc1ec5b3096f9029dffeb402eeefb2f6390298e"
+  integrity sha512-GixpSZJ2g0vRzIonyevtVngDaFJfCm4BE/erlCbnMTxwRy7+hrDFIfNMhMIs4NqBRuXX/tL/ITDpR+veHYGxHQ==
   dependencies:
+    "@curefit/fitness-common" "1.6.0"
     "@curefit/location-common" "^2.4.2"
+    "@curefit/social-common" "1.2.0"
 
 "@curefit/delivery-models@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@curefit/delivery-models/-/delivery-models-1.1.0.tgz#844fcda21eedcdc7de5f1c9f4495b5a9bd800115"
-  integrity sha512-Mo/fWSp3CyqSBa3ISsoqP3qwHFyuLDUTjqH90bn2pYfO3D/dETqtgU9aEwqVf4aTvCsZIGko6/CedeotYKZqTQ==
+  version "1.7.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/delivery-models/1.7.0/58de1cfb4ce3b488ae8ffcbbdbb77b1663a2050e3ad63ababb5d48ee5d8464a0#7dbaeb4ee7ed3c44cc8f1036ccf1653119c72c38"
+  integrity sha512-lORVQQzNdbWvZSS8ChxBILXYB26nifWOj7xQnPGcUKGdlRp50KgXIScIBeiMzOocBN8T761vGZamfemJSi9Fow==
   dependencies:
+    "@curefit/base" "^6.2.0"
+    "@curefit/base-common" "^1.2.0"
     "@curefit/eat-common" "^1.3.21"
-    "@curefit/mongo-utils" "^1.0.1"
+    "@curefit/location-common" "^2.2.0"
+    "@curefit/mongo-utils" "^3.5.2"
     uuid "^3.2.1"
 
-"@curefit/diy-common@4.42.0":
+"@curefit/diy-common@4.42.0", "@curefit/diy-common@^1.0.9":
   version "4.42.0"
-  resolved "https://registry.npmjs.org/@curefit/diy-common/-/diy-common-4.42.0.tgz#bc94f17e9accc69e0c2ab37ea510cc639b35f21a"
-  integrity sha512-Q3sZtervOkKU0oGCXRwVxJEzvx4SMPqpKnOlw+KvXwoW1VxwpNw5iNUmq6qnqyOLN6OHHAFUP9xwYV0ww+LaQA==
+  resolved "https://npm.pkg.github.com/download/@curefit/diy-common/4.42.0/d1f11816c6a6ac9cd6def81fd5e49770bf3b65652f3fb43e96c4ff874f8f5127#72ee3da664112537f8569c0daf3b89178ea0bd56"
+  integrity sha512-4NR4gtdSrayWWEipOobOJ8dRc66gcLARGn98dKTRruu0yQ17nfqjZywL/2l4Ly0YWhT+L48EUGuxotteTHNXXQ==
   dependencies:
     "@curefit/apps-common" "^1.12.0"
     "@curefit/base-common" "^1.6.0"
@@ -176,40 +167,24 @@
     "@curefit/product-common" "5.4.0"
     "@curefit/vm-common" "2.9.3"
 
-"@curefit/eat-common@^1.3.21", "@curefit/eat-common@^2.18.1", "@curefit/eat-common@^2.6.3", "@curefit/eat-common@^3.4.11", "@curefit/eat-common@^5.13.1", "@curefit/eat-common@^5.16.3", "@curefit/eat-common@^5.17.1", "@curefit/eat-common@^5.25.0", "@curefit/eat-common@^5.8.0", "@curefit/eat-common@^7.12.0", "@curefit/eat-common@^7.18.0", "@curefit/eat-common@^7.48.0":
-  version "7.48.0"
-  resolved "https://registry.npmjs.org/@curefit/eat-common/-/eat-common-7.48.0.tgz#722d08b47532e60c486505dae126874c7660803d"
-  integrity sha512-HpFOxGms+Rs37snD57ZJjQ14u79SXmFWFxBO2ZzdGTJKC2tIoyk4GW1woqFTJD8+p2RxXwdSb7pCE9ovLP6gqg==
+"@curefit/eat-common@^1.3.21", "@curefit/eat-common@^2.18.1", "@curefit/eat-common@^2.6.3", "@curefit/eat-common@^3.4.11", "@curefit/eat-common@^5.16.3", "@curefit/eat-common@^5.17.1", "@curefit/eat-common@^5.25.0", "@curefit/eat-common@^5.8.0", "@curefit/eat-common@^7.12.0", "@curefit/eat-common@^7.18.0", "@curefit/eat-common@^7.48.0":
+  version "7.49.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/eat-common/7.49.0/90ada81adf827789f91a0a8ca955c735b115c249455e84b4e0d46b6d61516ff3#1b563c274c7d1a57705628924e5baed8d6888cc6"
+  integrity sha512-TSg/JwU382k/nsQ9diAj907FZWG9D3DU1WTVfeMKv9AL+QTaqhUqmJuMFAAmo2nvKrLSfAA2xsemBTNzrj2i2A==
   dependencies:
-    "@curefit/aztec-models" "^1.0.5"
+    "@curefit/aztec-models" "1.3.0"
     "@curefit/base-common" "^1.5.1"
     "@curefit/finance-common" "^1.3.0"
     "@curefit/flash-common" "^1.7.2"
     "@curefit/food-common" "^1.7.1"
     "@curefit/location-common" "3.4.0"
-    "@curefit/product-common" "3.11.0"
+    "@curefit/product-common" "5.10.3"
     "@curefit/shipment-common-base" "0.1.0"
     "@curefit/workflow" "^0.2.0"
 
-"@curefit/error-client@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@curefit/error-client/-/error-client-1.0.2.tgz#c8e1cfc8d2fad6e6542d7bd068b62a0a64a06571"
-  integrity sha512-hYXeXB2C5NJerE1uMbWydYkVw0ZclzDZZLFBWS6ZkdgoQRCbuMUJ2aU1ZvOGxKhSWd3ft8YIk1kQ25y4/M1Ctg==
-  dependencies:
-    "@curefit/base" "^1.0.1"
-    "@curefit/base-common" "^0.0.8"
-
-"@curefit/error-client@^1.1.1":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@curefit/error-client/-/error-client-1.1.2.tgz#770bd0077569a9f90a75bcff9d6177b306e4f89c"
-  integrity sha512-7JWYPdTuouTwdzSiKaL1RClAKlHr5DO4j8eplzv3NTr94J0zjzbrWH3JwrkjJZ2+fho7P0kUw7MFrn0hScL5CQ==
-  dependencies:
-    "@curefit/base" "^1.5.1"
-    "@curefit/base-common" "^1.3.0"
-
-"@curefit/error-client@^1.2.0":
+"@curefit/error-client@^1.1.1", "@curefit/error-client@^1.2.0":
   version "1.3.0"
-  resolved "https://registry.npmjs.org/@curefit/error-client/-/error-client-1.3.0.tgz#c8d2c2c82fe3863a80092eac4ed3de8c15b7ba42"
+  resolved "https://npm.pkg.github.com/download/@curefit/error-client/1.3.0/917cc5b6c24b47f3e7382fa066281872daafe9be74919c40fd7589dd7f35dde5#c8d2c2c82fe3863a80092eac4ed3de8c15b7ba42"
   integrity sha512-O7qbeh9I9LU6ODKDMilnjyHXMSm7Vg/zI8ftky3PDREJ4MVTRhahgmTiwPb0gNgkOYrW95YlrLpocFdauONWqg==
   dependencies:
     "@curefit/base" "^1.5.1"
@@ -217,7 +192,7 @@
 
 "@curefit/error-client@^4.1.0":
   version "4.5.0"
-  resolved "https://registry.npmjs.org/@curefit/error-client/-/error-client-4.5.0.tgz#93387d3f94a64fe5e12aa8a0ca0d28fa6da5620a"
+  resolved "https://npm.pkg.github.com/download/@curefit/error-client/4.5.0/57e8590bd664f2858ac269e0274b656fd905d6dcee0e5d461da08707c997da83#93387d3f94a64fe5e12aa8a0ca0d28fa6da5620a"
   integrity sha512-sE3GiQe+NyiL5ZhT/BUzOjv0NhUPK0wGOFGSoNOjFQhOSv5sB1BNTM3U1TcUYVELE7puJ9PbUIM5sfU70UJHyQ==
   dependencies:
     boom "^7.1.1"
@@ -225,7 +200,7 @@
 
 "@curefit/error-common@^2.6.0":
   version "2.12.2"
-  resolved "https://registry.npmjs.org/@curefit/error-common/-/error-common-2.12.2.tgz#9b4ec855e4f0fd82b68731b6d2e96496abd86457"
+  resolved "https://npm.pkg.github.com/download/@curefit/error-common/2.12.2/5fcafae656a88ff33e21b83d8001a25c2b29654df169f45c30f2d03b37cca104#9b4ec855e4f0fd82b68731b6d2e96496abd86457"
   integrity sha512-/dJuTCb2OKbunNjTEA9yJj7exNJvPex4xKH1jhyeAOOAwmkjOQFsuQ7GVaLIAl0Uc0+GQM9pUhFTJX3Ro5St8w==
   dependencies:
     "@curefit/base" "^6.9.0"
@@ -234,57 +209,56 @@
     "@sentry/node" "^5.15.5"
     rollbar "^2.15.2"
 
-"@curefit/events-common@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.npmjs.org/@curefit/events-common/-/events-common-1.9.0.tgz#65c81b5f321c266ed232441c60021a7a7e903c69"
-  integrity sha512-pvLBM5NHUzf9jRRH+RA+rbpVJ+QHXejYEwAhquKy9AVj1HMlvS+VPAfTa1Q3raEndc9S2WWMG3palWSa3cC+1A==
+"@curefit/events-common@^1.12.3":
+  version "1.14.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/events-common/1.14.0/a6c5c522c6472045beed7e9fe4da5e1e0dd73d93e0bbd7d279887580b4d45710#415154539fbe2a3872ffc08856ef7ad97c74c5d1"
+  integrity sha512-h2CVmRAdh8IvbRaR0GZmnMD0UcqLk7hAPPmtj1DDKXRikt8TCGO1h6aDoTt2FTJzmDqxCWaqCbqz47wpgFwHDA==
   dependencies:
     "@curefit/eat-common" "^3.4.11"
+    "@curefit/fulfilment-common" "^1.7.1"
+    "@curefit/offer-common" "^2.24.0"
     "@curefit/product-common" "3.4.1"
 
-"@curefit/finance-common@^1.10.0":
+"@curefit/finance-common@^1.10.0", "@curefit/finance-common@^1.3.0":
   version "1.12.2"
-  resolved "https://registry.npmjs.org/@curefit/finance-common/-/finance-common-1.12.2.tgz#0b0b485a447348bc10a51ac6b1c3a433e57bc70c"
+  resolved "https://npm.pkg.github.com/download/@curefit/finance-common/1.12.2/3cdf85f3742949ee1ad1c385d17d7d5add7a21da1ff9ab595a701693f5c9258a#0b0b485a447348bc10a51ac6b1c3a433e57bc70c"
   integrity sha512-9VWnpBlNYni3Q0POwe7+8ZD5+hD5SDfD5EivL1VX5qaNQgz8NecYN5YSxNOD0OTFxdemP9YV+1KdbzRsNP9jaw==
 
-"@curefit/finance-common@^1.3.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@curefit/finance-common/-/finance-common-1.5.0.tgz#606b83df0a7d638304f85d4dda53b01b5035bb51"
-  integrity sha512-B/c/c4HMVHOY2J4vf7e1MsYpKczKWl2k2VlEmPPs9ARQiGDw4WezvHD2sRFksrKapBKs4w+hu3OKU4Wse5z4PA==
-
-"@curefit/fitcash-common@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@curefit/fitcash-common/-/fitcash-common-1.2.2.tgz#f256483936c264ab457bcd604357b66cdc6f0d88"
-  integrity sha512-F1jRQ+dOXu1qJ1lkfProD9XQQEuWDvJv3WaYbJb5YQM2MVorzKcpTxRGG/gAzBieTiC97A7HtT4YF6HvGVq/Zg==
+"@curefit/fitcash-common@^1.6.3":
+  version "1.6.3"
+  resolved "https://npm.pkg.github.com/download/@curefit/fitcash-common/1.6.3/71c6ab895d0ec90530ef337a6a7ca1e41778738e4200b7777a0608f01240fbf1#71462ac1e986000764c95bc5b7d2815523533926"
+  integrity sha512-fY46rZRYFUXjrpkfJf27rHEjMk1IWznAVRbg+QXYjtb22NNwZS99h7GgjO2xOMG2YHNyE5vlq6Zp1FFs+nSxsA==
   dependencies:
-    "@curefit/base-common" "1.3.2"
+    "@curefit/base-common" "^1.5.1"
+    "@curefit/config-mongo" "^1.17.0"
+    "@curefit/order-common" "^5.25.0"
 
-"@curefit/flash-common@^1.18.0", "@curefit/flash-common@^1.7.2":
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/@curefit/flash-common/-/flash-common-1.18.0.tgz#36dfce8279619fc218c3b960f843ae73294ac507"
-  integrity sha512-/VCWpbNcEImyBYYiolQrBBnDzvhZb1sTMsA7suwJuPFcgGmIHFflbvr/LlnDzb32M0RZoARWGxWx29BAppvVVQ==
+"@curefit/fitness-common@1.6.0":
+  version "1.6.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/fitness-common/1.6.0/96d19e6d04a8aeb7ebed2d3e6716c604a6abcf3155aaf72e3378d6884ad4673c#d4ac36779e5ded20e41972789a4287e87f0b2661"
+  integrity sha512-TlK/U52EoZ6cb1SnQvyrdEmhvF5PytjO63JM1Wx02jd17efN40BWujeKYusfUFaLuRQjrJnf9mpMI4ePPG6l8A==
+  dependencies:
+    "@curefit/diy-common" "^1.0.9"
+
+"@curefit/flash-common@^1.11.4", "@curefit/flash-common@^1.18.0", "@curefit/flash-common@^1.7.2":
+  version "1.19.3"
+  resolved "https://npm.pkg.github.com/download/@curefit/flash-common/1.19.3/ccb3afad803efb24bfe3770af6574e60a488b1530e3a0b59bb630ea1fd38fceb#748d2e35a5669509c707e2545121df48c470f45d"
+  integrity sha512-rybT98DordVND3XXus/obeAwZznWBeLmpvsZ8svcM/zFfaVygeKOYgQxMlnXl9rOEahgf+h5Dh3Xb/fsMpNkCA==
   dependencies:
     "@curefit/base-common" "^0.0.12"
     "@curefit/eat-common" "^5.8.0"
     "@curefit/workflow-common" "^0.0.4"
 
-"@curefit/food-common@^1.13.0":
+"@curefit/food-common@^1.13.0", "@curefit/food-common@^1.7.1":
   version "1.13.0"
-  resolved "https://registry.npmjs.org/@curefit/food-common/-/food-common-1.13.0.tgz#32090981d3548c92c65606ade4c0df0b53600224"
+  resolved "https://npm.pkg.github.com/download/@curefit/food-common/1.13.0/01728fffc8678bb5add4a0afd6cee712dc7eb7c52dceed7ab8f2a726f8c1711b#32090981d3548c92c65606ade4c0df0b53600224"
   integrity sha512-puu8jPPf08V3fo+GSLyA0PS51pFy0/7KWFVrUsNzsYA36ZA/KkC+tQA9MvgRU5UVgzwt0cN6dAjjd0X6T+KxVg==
-  dependencies:
-    "@curefit/base-common" "^1.3.2"
-
-"@curefit/food-common@^1.7.1":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@curefit/food-common/-/food-common-1.9.0.tgz#24059e999826b1e46daefcbe4c4d5fa7cb4d0ad7"
-  integrity sha512-7WoJKJjsLQ/+8cmPcTtkHf+pSIGi/S/G6sZ6ILj/e9KMdRcWfNmfAF3LDCqN+MK1IB4Qwalcn7cnGNj7OwnvBg==
   dependencies:
     "@curefit/base-common" "^1.3.2"
 
 "@curefit/fulfilment-common@^1.7.1":
   version "1.8.3"
-  resolved "https://registry.npmjs.org/@curefit/fulfilment-common/-/fulfilment-common-1.8.3.tgz#5f84924c4f3916d24cd26ad90640dc9f854aceba"
+  resolved "https://npm.pkg.github.com/download/@curefit/fulfilment-common/1.8.3/6429a33aaa0a10326ec1d1de20028138c409a6dd565e8ab1d0df6b8745600a86#5f84924c4f3916d24cd26ad90640dc9f854aceba"
   integrity sha512-cyMto66p97Ad5r0S2cuL2DHCdOZbTv7GUraWYm+ntMgWj1yx5DwBekTbuSiBypHVwOrnJZ6YU7z8qHoIMpFATQ==
   dependencies:
     "@curefit/base-common" "^1.0.1"
@@ -298,7 +272,7 @@
 
 "@curefit/gmf-common@^1.2.2":
   version "1.2.3"
-  resolved "https://registry.npmjs.org/@curefit/gmf-common/-/gmf-common-1.2.3.tgz#59702b0ad0718bb8d0227dba464eb03ef2a2c821"
+  resolved "https://npm.pkg.github.com/download/@curefit/gmf-common/1.2.3/062ffa0c870dfe1506f262c9abbd99885109cd9306c1e882058e50b305425dbf#59702b0ad0718bb8d0227dba464eb03ef2a2c821"
   integrity sha512-tQDyvl9lZDEYekiBOdvejiezZoVm1HGm2JT1Vod3VsBosF+N0x7dl8VKEm4MNl8Lids919xQCDwWZjsy8EeN+w==
   dependencies:
     "@curefit/error-client" "^1.1.1"
@@ -307,13 +281,13 @@
     "@curefit/product-common" "^3.4.1"
     lodash "^4.17.4"
 
-"@curefit/iris-common@^1.23.0":
-  version "1.29.0"
-  resolved "https://registry.npmjs.org/@curefit/iris-common/-/iris-common-1.29.0.tgz#be80be68b518660e88db493d9a481fed7871cd0d"
-  integrity sha512-8MZTxC+yfC802CrKdGNnDgdUdMtHeCzVetP0kCXzvlvNixQ18vcByGMvL1fRIxHWg68E9keZY/CoVBzzT7bNig==
+"@curefit/iris-common@^1.28.0":
+  version "1.32.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/iris-common/1.32.0/a05a855c98b3c89292a4656d4fc02dd68049fc6d4cb7f1352d60760fc3efceb2#0d8f44f9f3be1d9ccfbde8be076be222f83ee531"
+  integrity sha512-p0LQv1bm6eiIXEwWuMcA9f7CgQSI2V8yWUi54zbwvdLRomXJD114eO0Yg6VQ9gSbUQ8O+kdUfDYiraq3LX66Ag==
   dependencies:
     "@curefit/base-common" "^1.3.0"
-    "@curefit/eat-common" "^3.4.11"
+    "@curefit/eat-common" "^7.48.0"
     "@curefit/fulfilment-common" "^1.7.1"
     "@curefit/logging-common" "^1.3.2"
     "@curefit/util-common" "^3.1.5"
@@ -321,14 +295,14 @@
 
 "@curefit/issue-common@^1.11.6":
   version "1.17.3"
-  resolved "https://registry.npmjs.org/@curefit/issue-common/-/issue-common-1.17.3.tgz#24b0beb1d1e16547824e65c013c70d5a2bcfc2ca"
+  resolved "https://npm.pkg.github.com/download/@curefit/issue-common/1.17.3/d56db4e17e309406cb4fec90a0199b12e13424ea7268f5b808e129f84fefd598#24b0beb1d1e16547824e65c013c70d5a2bcfc2ca"
   integrity sha512-oGUOJZA6J4uMWWRKFtLJXOrZmIawMt+wzshmyfSq3Az9EHr4Cnb/80vIE7aj8yXpbf2dHUOj3cAAUZjcvohX1g==
   dependencies:
     "@curefit/order-common" "^5.5.2"
 
 "@curefit/location-common@3.3.2":
   version "3.3.2"
-  resolved "https://registry.npmjs.org/@curefit/location-common/-/location-common-3.3.2.tgz#22a67778218002daf3dbef88925278daf351e2c8"
+  resolved "https://npm.pkg.github.com/download/@curefit/location-common/3.3.2/cb2d408d4f982363b4a81c789d439bb1e84fdced22dddaa5ca1238cebe95ca5f#22a67778218002daf3dbef88925278daf351e2c8"
   integrity sha512-GR17To0nt1XL5t5Y9gbGROloiZdusyCvH7U8PIT6bpECEnM3loo1FML3nYGja955kQpZba+ZGw96nw1I0kBGEw==
   dependencies:
     "@curefit/base-common" "1.5.2"
@@ -338,7 +312,7 @@
 
 "@curefit/location-common@3.4.0", "@curefit/location-common@^3.0.3":
   version "3.4.0"
-  resolved "https://registry.npmjs.org/@curefit/location-common/-/location-common-3.4.0.tgz#c229e0a519b257a9a57bc094c82b169fd091864e"
+  resolved "https://npm.pkg.github.com/download/@curefit/location-common/3.4.0/9ef10f16f2284d2b1067e35c708af10eade809b9b6b57362a783a0a6866ddb18#c229e0a519b257a9a57bc094c82b169fd091864e"
   integrity sha512-jR6MgGB7DoyasG6naJvdpj+vP/UeYgBnn03yXzdMhrG6rgDekaUrtUzLzIEqaP/lRVeufs6bYqNTZgDtPfHClA==
   dependencies:
     "@curefit/base-common" "1.5.2"
@@ -346,27 +320,17 @@
     "@curefit/util-common" "3.0.0"
     lodash "^4.17.11"
 
-"@curefit/location-common@^2.4.2":
+"@curefit/location-common@^2.2.0", "@curefit/location-common@^2.4.2":
   version "2.5.3"
-  resolved "https://registry.npmjs.org/@curefit/location-common/-/location-common-2.5.3.tgz#2c5ee0aa5cafcf0064fbc51b9930b55b0a8f9d29"
+  resolved "https://npm.pkg.github.com/download/@curefit/location-common/2.5.3/bf53258116ddb3e86055a65bf9421d9e5844f6b20b17cc2b7fb5c644108f72f3#2c5ee0aa5cafcf0064fbc51b9930b55b0a8f9d29"
   integrity sha512-DCyKteYCwSKkSj0li8s7R4EkOWYXO04QSIsfX8Ja4heguDwEBxqbzij79Fw4Lxeul4iK4u4vBjDxiSHpLP2ptQ==
   dependencies:
     "@curefit/product-common" "^3.5.0"
     lodash "^4.17.11"
 
-"@curefit/logging-common@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/@curefit/logging-common/-/logging-common-1.6.0.tgz#03d2e931f2f2652d26666930041df6076d3e9c31"
-  integrity sha512-+JVO4Q16KTOB+OMzZQEydNanhAbJiG1tPLQmqwwEQ5iFv0I2w0fR6CEq7HYN3ASL6W+JlPDJCHFP30X1dAy8vw==
-  dependencies:
-    "@curefit/base-common" "^1.3.0"
-    "@curefit/care-common" "^2.1.2"
-    "@curefit/gmf-common" "^1.2.2"
-    "@curefit/product-common" "^3.4.1"
-
-"@curefit/logging-common@^1.3.2":
+"@curefit/logging-common@^1.16.2", "@curefit/logging-common@^1.3.2":
   version "1.16.2"
-  resolved "https://registry.npmjs.org/@curefit/logging-common/-/logging-common-1.16.2.tgz#f2f472c88262d5a7c62a43ecbe32472cc28b69b5"
+  resolved "https://npm.pkg.github.com/download/@curefit/logging-common/1.16.2/47e413b5917380892e959c7f8ddc5bc295945400e048bee4916fe862924acde0#f2f472c88262d5a7c62a43ecbe32472cc28b69b5"
   integrity sha512-dJ6N67TQ0J5wQGNHeRph2xPDoDM/jz9oOISu+lk09wOsv3xopFYGB5KIrTuGqKWqGa36JngIKNezva4I+Kb+ew==
   dependencies:
     "@curefit/base-common" "1.6.0"
@@ -376,7 +340,7 @@
 
 "@curefit/logistics-common@^0.0.12":
   version "0.0.12"
-  resolved "https://registry.npmjs.org/@curefit/logistics-common/-/logistics-common-0.0.12.tgz#8c713ebc083ac9f5dd8537bfa2384d0330d09e82"
+  resolved "https://npm.pkg.github.com/download/@curefit/logistics-common/0.0.12/f5a4a0e71cc9fd645ce2798d31b62a073afad7c72743db90ee84a42cbcb3250c#8c713ebc083ac9f5dd8537bfa2384d0330d09e82"
   integrity sha512-SlICo/4gPvxOj4n4z5jh0Cfz1+wZyCkruSHeXMm+pANC0+6O+TY22H166DaUgCmaS0Qn3gB04fp0YzD24pettg==
   dependencies:
     "@curefit/base-common" "^1.4.1"
@@ -385,7 +349,7 @@
 
 "@curefit/marketplace-common@^0.2.24":
   version "0.2.38"
-  resolved "https://registry.npmjs.org/@curefit/marketplace-common/-/marketplace-common-0.2.38.tgz#7505efbde84323d1227a1bd51a963877a096f482"
+  resolved "https://npm.pkg.github.com/download/@curefit/marketplace-common/0.2.38/e59b460763da70f46d4065cc2e2abdb19187290a5635821c55edff4d07153835#7505efbde84323d1227a1bd51a963877a096f482"
   integrity sha512-4zvKUGh1oL3npknVrlwfwu7hN5GszQRRuXtnqeI5WqXhnpIKDiK6MomlpCueDHxwZi/98N4SARjYDlS4SGGWYQ==
   dependencies:
     "@curefit/base-common" "^1.4.1"
@@ -393,7 +357,7 @@
 
 "@curefit/marketplace-common@^1.0.2":
   version "1.3.3"
-  resolved "https://registry.npmjs.org/@curefit/marketplace-common/-/marketplace-common-1.3.3.tgz#a7e78a52716bc45905a6ad0577e91dad8091505b"
+  resolved "https://npm.pkg.github.com/download/@curefit/marketplace-common/1.3.3/7e3ec143b351f89958c1acad99de0ae6a6ed6c69a91944cdd93e9cd0f7f56bbc#a7e78a52716bc45905a6ad0577e91dad8091505b"
   integrity sha512-c4XaOlIXI/aga4KjXZiEsgE1OIprXD97fPptSbIebeiSX6fQ0jdZlkbyVTlzqz6F7166gEn/qm1tKNRV6JPn0w==
   dependencies:
     "@curefit/base-common" "^1.4.1"
@@ -402,19 +366,19 @@
 
 "@curefit/maverick-common@^1.1.1":
   version "1.1.3"
-  resolved "https://registry.npmjs.org/@curefit/maverick-common/-/maverick-common-1.1.3.tgz#b2039551bd830c4c01fbbf24124aba25dfd14401"
+  resolved "https://npm.pkg.github.com/download/@curefit/maverick-common/1.1.3/8e46e3f4652ff9590fbb46b93a8664305855dbe831d2d45030db3a661ac0db20#b2039551bd830c4c01fbbf24124aba25dfd14401"
   integrity sha512-2Vw86Tl0U/ZFk9UMIgdc1vFh3reJPm0LYFeR147NPSDt+sTGip1/M+HraSbWHVv8j5XT1kMhvMxNCWMe9FwSEw==
   dependencies:
     "@curefit/base-common" "^1.3.0"
 
 "@curefit/membership-commons@1.0.0":
   version "1.0.0"
-  resolved "https://registry.npmjs.org/@curefit/membership-commons/-/membership-commons-1.0.0.tgz#78a23e5884cd960a62251cb4a08322eceeb828f3"
-  integrity sha512-1eMf8pRonyk9ehXRaRNHpVTGGq0bRtrCEJ/zBO9BTzpHkQxikr+gJe+eBCuPP8P8gANxAbhx3MC3yC3aB/euCQ==
+  resolved "https://npm.pkg.github.com/download/@curefit/membership-commons/1.0.0/d2406916d57fd2d274e666270e409bb4db69a6ad823201e2bf4e36ca064eec11#ecbdf01a8bbc670381278115b67115d3aa9a2861"
+  integrity sha512-pkTu4YQ8sHQPq30P8sBIYWKP3mLE7YerF6SlI+cG5iWR7Dqt6XGOXRHjp311vbCCCK/Li/S0Og2NM5dCT2BfBw==
 
 "@curefit/memory-cache@^1.5.0":
   version "1.6.3"
-  resolved "https://registry.npmjs.org/@curefit/memory-cache/-/memory-cache-1.6.3.tgz#88ec6dd7ad0e97183c177dffb1cf47252eac7f41"
+  resolved "https://npm.pkg.github.com/download/@curefit/memory-cache/1.6.3/0faca65b1f54261e113ed69fb6679e1b7d93483d49412cfd45e9a441eeb9e224#88ec6dd7ad0e97183c177dffb1cf47252eac7f41"
   integrity sha512-fo5NgxZehIJQz01HSKIilQmKNLdhc/U8PFRvocVi5Xk+dn+ie3S1ZwiyL+UneiWJs0hRkYkG6rgKIF6z8ttEEA==
   dependencies:
     "@curefit/base" "^1.5.1"
@@ -425,12 +389,12 @@
 
 "@curefit/metrics-common@^1.0.0":
   version "1.0.3"
-  resolved "https://registry.npmjs.org/@curefit/metrics-common/-/metrics-common-1.0.3.tgz#312dd4d2605bd1d25d5e67fb569dae8b3ef4a420"
+  resolved "https://npm.pkg.github.com/download/@curefit/metrics-common/1.0.3/2737118440dcc20ae18abd082a2506c562102ef7a14048de26108d4a6027b51d#312dd4d2605bd1d25d5e67fb569dae8b3ef4a420"
   integrity sha512-6WjmuMkP+HNABVMWADuV69d9lH7SPZ1/Vv/e7mVBX97ojUeBygtwhkifnMZVI/3jZgslgXKUmv28gnYlVlkqcw==
 
 "@curefit/mongo-utils@1.7.0":
   version "1.7.0"
-  resolved "https://registry.npmjs.org/@curefit/mongo-utils/-/mongo-utils-1.7.0.tgz#7899cd605d6bbf8ab0f0a20969b79719abea0ce7"
+  resolved "https://npm.pkg.github.com/download/@curefit/mongo-utils/1.7.0/aed3c83f638e52e9a63294e210d199e654d62c7f0eaef80ec3acc2558a79e9dc#7899cd605d6bbf8ab0f0a20969b79719abea0ce7"
   integrity sha512-ib9Yc4icy7LNSj5EanqtqYS2Ry/bZKrFy5jFIMVFi5VZqPxFemkuBJ01xfFpSdKhgSOLcno1ZOCHoof6H2jIKw==
   dependencies:
     "@curefit/base" "^1.5.1"
@@ -441,32 +405,43 @@
     mongoose-legacy-pluralize "^1.0.2"
     mongoose-map "1.1.0"
 
-"@curefit/mongo-utils@^1.0.0", "@curefit/mongo-utils@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@curefit/mongo-utils/-/mongo-utils-1.0.1.tgz#c79ed194480eacb0f75d0c3674af0f3f8164e782"
-  integrity sha512-akgZb6stx8mIgnp/fMge01Bc6/iDESuweulHUUQz0uZbPRhVt2fbVZ5RkxoCghfcGpTFyDSR1tMfxQAPNE00kw==
+"@curefit/mongo-utils@^1.0.1":
+  version "1.8.2"
+  resolved "https://npm.pkg.github.com/download/@curefit/mongo-utils/1.8.2/b6520e582b60a0005de085657e31cda6661c12679fc93af5dad38c6388fd282b#b0a240a1b87a1901beea2a46f17a889d9b40d5bd"
+  integrity sha512-EC/ZQr2pl/vL7kqB1UeexHO+9BSr8nNO9EQPCqXADd6rC4S3rNMgGSo3fcnnwSApOIwQ+6VYh+tnpedi1gBvhA==
   dependencies:
-    "@curefit/base" "^1.0.1"
-    "@curefit/error-client" "^1.0.2"
+    "@curefit/base" "^1.6.0"
+    "@curefit/error-client" "^1.1.1"
     cls-mongoose "^2.0.1"
     lodash "^4.17.10"
     mongoose "4.9.1"
     mongoose-legacy-pluralize "^1.0.2"
     mongoose-map "1.1.0"
 
+"@curefit/mongo-utils@^3.16.2", "@curefit/mongo-utils@^3.5.2":
+  version "3.16.2"
+  resolved "https://npm.pkg.github.com/download/@curefit/mongo-utils/3.16.2/d78f439ded9aec9f2ad8b0a02abd8e5e7ca42b2c58a4fea84ff4aa4605f0fa9c#da14a27cdc39e6aebe260df736fa9a9f0c8b4251"
+  integrity sha512-XEtGZ1cIzustHHpHBky8PLH4wv/ptsZFjAYpm2kjHxg0FsJJfEkkGIELyxrWJJY92PMqF6rNmzBn/PH9gKL8rg==
+  dependencies:
+    "@curefit/base" "^3.3.2"
+    cls-mongoose "^2.0.1"
+    mongoose "^5.8.5"
+    mongoose-legacy-pluralize "^1.0.2"
+    mongoose-map "1.1.0"
+
 "@curefit/offer-common@^1.7.0":
   version "1.15.0"
-  resolved "https://registry.npmjs.org/@curefit/offer-common/-/offer-common-1.15.0.tgz#18021fc10d5fcf321a820a4307f8726414362969"
+  resolved "https://npm.pkg.github.com/download/@curefit/offer-common/1.15.0/217e60501de053048407124e0df0d8ef4e978aa0d934b5d2152a596e0bfc69cf#18021fc10d5fcf321a820a4307f8726414362969"
   integrity sha512-xXzZ946kIgszgH7nfSdCU2Uq3gOIG6z3EuzqXk4SYGQvy5j02Avuiz4SbSs3MqgjmuyIzP+1iS7HvqGrbb/msA==
   dependencies:
     "@curefit/eat-common" "^2.18.1"
     "@curefit/payment-common" "^1.4.0"
     "@curefit/product-common" "^3.2.0"
 
-"@curefit/offer-common@^2.15.1", "@curefit/offer-common@^2.20.3", "@curefit/offer-common@^2.3.2":
-  version "2.41.0"
-  resolved "https://registry.npmjs.org/@curefit/offer-common/-/offer-common-2.41.0.tgz#813efc864139bfc13028893e257354915387006a"
-  integrity sha512-nn2bw0KlKi1Ofmbbz3Uw/wRKgB7T7g5lzVeH49sh/E6xwjKVApLV6kDiieGAKDBO+XkwN7meWWkhzeivdrWtng==
+"@curefit/offer-common@^2.15.1", "@curefit/offer-common@^2.20.3", "@curefit/offer-common@^2.24.0", "@curefit/offer-common@^2.40.3":
+  version "2.42.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/offer-common/2.42.0/a7adc98ed959247a0c4c66049e6852358ef0ef361c3d047948e38e1d800f3abc#13df7c478f316d0b2aabd8b04ad17f4846ac2c71"
+  integrity sha512-R9zyKjQU8WGERri+GxemG8LAXHJvYIeiR6XSiRYms/kU+c7pFKNK7XhAWRYVj+jv0JngSG/cvc/bWgd2s8mh2A==
   dependencies:
     "@curefit/eat-common" "^5.25.0"
     "@curefit/marketplace-common" "^1.0.2"
@@ -475,9 +450,9 @@
     "@curefit/product-common" "^3.5.2"
     "@curefit/util-common" "^3.1.3"
 
-"@curefit/order-common@5.40.1", "@curefit/order-common@^2.13.1", "@curefit/order-common@^2.13.4", "@curefit/order-common@^2.5.1", "@curefit/order-common@^4.4.0", "@curefit/order-common@^5.10.0", "@curefit/order-common@^5.16.0", "@curefit/order-common@^5.5.2":
+"@curefit/order-common@5.40.1", "@curefit/order-common@^2.10.0", "@curefit/order-common@^2.13.1", "@curefit/order-common@^2.13.4", "@curefit/order-common@^2.5.1", "@curefit/order-common@^4.4.0", "@curefit/order-common@^5.10.0", "@curefit/order-common@^5.16.0", "@curefit/order-common@^5.20.0", "@curefit/order-common@^5.25.0", "@curefit/order-common@^5.40.1", "@curefit/order-common@^5.5.2":
   version "5.40.1"
-  resolved "https://registry.npmjs.org/@curefit/order-common/-/order-common-5.40.1.tgz#f00de5102eb3947ab5b2411a7671e4ba155bc8c0"
+  resolved "https://npm.pkg.github.com/download/@curefit/order-common/5.40.1/ed3e9141e5b5eba6901dd9b2c27c61d134f7845f8e51bf9cbbd7e7cf9b8d38eb#f00de5102eb3947ab5b2411a7671e4ba155bc8c0"
   integrity sha512-GixMIDOKzaD5m8cZssIGy19N1n4uM3O0H9cHqg9TJHeCsT154ngjgmipqRhQJXPgmODSc6U0iUw2riP7ohGCNA==
   dependencies:
     "@curefit/base-common" "^1.7.0"
@@ -490,7 +465,7 @@
 
 "@curefit/payment-common@5.2.0":
   version "5.2.0"
-  resolved "https://registry.npmjs.org/@curefit/payment-common/-/payment-common-5.2.0.tgz#6aec1cc9aaf84d86ed0019fd32c8bafc1aa19c00"
+  resolved "https://npm.pkg.github.com/download/@curefit/payment-common/5.2.0/497885999cc5ead4c1dbfa2f2d19b6e7107bf35843e150403c14205641c57063#6aec1cc9aaf84d86ed0019fd32c8bafc1aa19c00"
   integrity sha512-+Ex+Po8l09pdY9+QWNkTXTbEP5D+b8fdpGw3HxgwfmgeypufijmrP2Aa8OH7D5uVkNLXBqjh0lCN/qBoPpbugw==
   dependencies:
     "@curefit/base-common" "^1.3.0"
@@ -500,7 +475,7 @@
 
 "@curefit/payment-common@^1.2.0", "@curefit/payment-common@^1.4.0", "@curefit/payment-common@^1.5.1":
   version "1.9.0"
-  resolved "https://registry.npmjs.org/@curefit/payment-common/-/payment-common-1.9.0.tgz#9d4a50a5bcb60d730c70db1f4670d2e35b359ab4"
+  resolved "https://npm.pkg.github.com/download/@curefit/payment-common/1.9.0/7a72d2e8e9d2773bd4f8e12942f941b48968994f8e76c0ac42cb3b1b477c8f31#9d4a50a5bcb60d730c70db1f4670d2e35b359ab4"
   integrity sha512-0pwjJGWP4NDstb9fRjNk6OIOrlqN5z2zm7SQ0Tha8NWJ9T0xlbS07gtcdfBS3oXcQUMgGWnTi1bbZNpikx1uTg==
   dependencies:
     "@curefit/base-common" "^1.3.0"
@@ -510,7 +485,7 @@
 
 "@curefit/payment-common@^5.3.0":
   version "5.11.0"
-  resolved "https://registry.npmjs.org/@curefit/payment-common/-/payment-common-5.11.0.tgz#699fee84144b0516afa6ae614f6ce3dde8cd4da5"
+  resolved "https://npm.pkg.github.com/download/@curefit/payment-common/5.11.0/ba534c48042f610615f6923a5cecf191e2e27432345fea7f94a768b32cf7ab80#699fee84144b0516afa6ae614f6ce3dde8cd4da5"
   integrity sha512-H+6HKKgQNDnRd4Z8lPkNsFKxAdSVQ5vhp+LyCFPZYN03Vxjn6nxwrAr3cs40eOkw0OVOyY8pLFkoEjSZZdBAtw==
   dependencies:
     "@curefit/base-common" "^1.3.0"
@@ -520,7 +495,7 @@
 
 "@curefit/payment-common@^6.0.0":
   version "6.8.0"
-  resolved "https://registry.npmjs.org/@curefit/payment-common/-/payment-common-6.8.0.tgz#c872e8ca4fa028ef32223dafdf6051e0803f4f70"
+  resolved "https://npm.pkg.github.com/download/@curefit/payment-common/6.8.0/c1e67f9f6c42361824d5510e91748071424eb6ee22f865ac5db2cd1128117651#c872e8ca4fa028ef32223dafdf6051e0803f4f70"
   integrity sha512-Tkvc6AQxv6uDQ6Z9sXs2cOxIQ/nCCiCEOW1HQTAiSUa42LKdcgrX142iCzFgR5iajwNgHMYwJFhRw4DSj9PxYw==
   dependencies:
     "@curefit/base-common" "^1.3.0"
@@ -528,9 +503,9 @@
     "@curefit/product-common" "^3.5.0"
     "@types/node" "^12.0.10"
 
-"@curefit/product-common@3.11.0", "@curefit/product-common@3.4.1", "@curefit/product-common@3.8.5", "@curefit/product-common@4.1.3", "@curefit/product-common@5.10.3", "@curefit/product-common@5.4.0", "@curefit/product-common@^2.3.0", "@curefit/product-common@^3.2.0", "@curefit/product-common@^3.4.1", "@curefit/product-common@^3.5.0", "@curefit/product-common@^3.5.2", "@curefit/product-common@^5.5.0", "@curefit/product-common@^5.9.0":
+"@curefit/product-common@3.4.1", "@curefit/product-common@3.8.5", "@curefit/product-common@4.1.3", "@curefit/product-common@5.10.3", "@curefit/product-common@5.4.0", "@curefit/product-common@^2.3.0", "@curefit/product-common@^3.2.0", "@curefit/product-common@^3.4.1", "@curefit/product-common@^3.5.0", "@curefit/product-common@^3.5.2", "@curefit/product-common@^5.5.0", "@curefit/product-common@^5.9.0":
   version "5.10.3"
-  resolved "https://registry.npmjs.org/@curefit/product-common/-/product-common-5.10.3.tgz#d90a653db3e33acc0461546eb8f53828a8e471a5"
+  resolved "https://npm.pkg.github.com/download/@curefit/product-common/5.10.3/7d440ce2fcd2773cb16c88288ed71b595a137e4e50da9a7a1a632899588ba721#d90a653db3e33acc0461546eb8f53828a8e471a5"
   integrity sha512-1HYGgxKTgXKscjpyy5LTPtli5+HOZRD4unwPhVXWRdDv7NuBN+0EnDMoXpqIyB1w7GYrqLjlh79r6tLBg/ec/g==
   dependencies:
     "@curefit/base-common" "^1.6.0"
@@ -542,7 +517,7 @@
 
 "@curefit/redis-utils@^1.5.0":
   version "1.6.5"
-  resolved "https://registry.yarnpkg.com/@curefit/redis-utils/-/redis-utils-1.6.5.tgz#3cc8ebe6812a853c4f7760d564a3fe321f216826"
+  resolved "https://npm.pkg.github.com/download/@curefit/redis-utils/1.6.5/6b43e79b8b78e6cf0f1109e05f29c081e1ab58c2382ceaeba6acc1929fe604b0#3cc8ebe6812a853c4f7760d564a3fe321f216826"
   integrity sha512-fH7CCQzPhZfd727j1hN2WGjNzfD0H0XE8L7nvtWBvgvNV+Zke501YEO5v6n6tmzuz2TADa0pZ5yefPzsJoRCxA==
   dependencies:
     "@curefit/base" "1.5.1"
@@ -551,18 +526,19 @@
     redis "^2.8.0"
     redlock "^3.1.0"
 
-"@curefit/schema-mongo@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@curefit/schema-mongo/-/schema-mongo-1.0.2.tgz#32f7b9873b821bcd8452d22b87a7b00dfb3bd063"
-  integrity sha512-Ij1Ty5A2SgKuUjr0B2BF90M++GZsNIeYsTJ3gGvoM5IH59jgZQ5AnV48QTS8mqWaQPEpP0neruPDCTi+4GtLHQ==
+"@curefit/schema-mongo@^1.0.2", "@curefit/schema-mongo@^1.2.1":
+  version "1.5.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/schema-mongo/1.5.0/bdbfc8671f7c34bdbdd5d582d3673e4de4dbdcac7c06b08a8306650544e9c98a#d4ebf3e6fa678f984b2834c94d3c1f3589451308"
+  integrity sha512-gGYePD9MPdXujVarMVahd05pWGJblOxWZ+tXzLgx3AWi4RmaT0ZSVc5LWkBPC41oufyaRgkI6phdHMmFS/+OWQ==
   dependencies:
-    "@curefit/base" "^1.0.1"
-    "@curefit/base-common" "^1.0.1"
-    "@curefit/mongo-utils" "^1.0.0"
+    "@curefit/base" "^6.13.4"
+    "@curefit/base-common" "^2.2.0"
+    "@curefit/mongo-utils" "^3.16.2"
+    "@curefit/util-common" "^3.6.3"
 
 "@curefit/segment-common@1.0.6":
   version "1.0.6"
-  resolved "https://registry.npmjs.org/@curefit/segment-common/-/segment-common-1.0.6.tgz#4bb9868b3c2497e92eaa2fe09dd08aaea30de129"
+  resolved "https://npm.pkg.github.com/download/@curefit/segment-common/1.0.6/7765ddd30ae7b8991d0fd77d8b65d5bbd75b84097eea0430987222bcac8ac8dc#4bb9868b3c2497e92eaa2fe09dd08aaea30de129"
   integrity sha512-BiGh60k8kuKVwHNsXM57I97bpOBywag76tK1QNhU2Xy29/vNTSelhbJhNRcA1u4JOjW2Tygo3hw9ocqvrDKfQw==
   dependencies:
     "@curefit/base-common" "^1.2.0"
@@ -570,9 +546,9 @@
     "@curefit/order-common" "^4.4.0"
 
 "@curefit/segment-common@^1.0.7":
-  version "1.8.3"
-  resolved "https://registry.npmjs.org/@curefit/segment-common/-/segment-common-1.8.3.tgz#556c0fcec8f2360df47ffc3830eafa6763cd93ab"
-  integrity sha512-wQuWTOhuefcCZ6QZrcZvdM0Tei2m7DD3nvnMeDkxMYgvMzrf+5JW9a2MC7aZVViDAgzW91iL7wtL1KfWU7NiSQ==
+  version "1.9.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/segment-common/1.9.0/9e37c46ef31d28642c17a07819589505a2df17ecefb2defc0a0eeeba417d92d9#69c95971013cb81b9625659058b1969f71d0a2a0"
+  integrity sha512-KObpHZmN+VUYoChQi9f15h8ZA1aNTGh3qN/oa3r6fJhu4F3OucAj877FnzO0Aq1SJ/5veTY2kxi3yHiJntKOYg==
   dependencies:
     "@curefit/base-common" "^1.2.0"
     "@curefit/eat-common" "^7.12.0"
@@ -582,38 +558,50 @@
 
 "@curefit/shipment-common-base@0.1.0":
   version "0.1.0"
-  resolved "https://registry.npmjs.org/@curefit/shipment-common-base/-/shipment-common-base-0.1.0.tgz#71fc7b859b0a9c19bc29889036b4c3198fdfbdff"
+  resolved "https://npm.pkg.github.com/download/@curefit/shipment-common-base/0.1.0/8a52565289d71f05e2783328042f99ef57b321a933c850a8ae731707a68729b6#71fc7b859b0a9c19bc29889036b4c3198fdfbdff"
   integrity sha512-RJhWSf9+2FEhZyCFnlbwC90mnaaCTRYII1QobqvmJifQawXIzXR9+M3Py3/Dmvhu4U4u5byRpoXPIN9vBq+qkA==
 
 "@curefit/shipment-common@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@curefit/shipment-common/-/shipment-common-1.0.2.tgz#5ae3864f6b2965dca76b7baacaeca0409ab64206"
-  integrity sha512-gyV/VKhUsxjxYnNF/514RyUQ6AafmUSkcJTqP9uEuGb/R4Xft7MR8UPbY3PelSVH89v9qMNF7YF6WYnTqbik+Q==
+  version "1.1.4"
+  resolved "https://npm.pkg.github.com/download/@curefit/shipment-common/1.1.4/8626230f4dec1bb7850f884cdaa7885ef6310008d378aad31e5675b6aa9885cd#a376c61c6de997ed148af81159f260e733f6d75f"
+  integrity sha512-IVDFB3nbHjqTUecpcvVp39H/k+YIrAnshsa0z3clSh4LwAlPEj07g3wDLrMjYBg0geOuxpI8b17jq1Q+nIjx/A==
+  dependencies:
+    "@curefit/order-common" "^2.10.0"
+    "@curefit/product-common" "^3.2.0"
+    "@curefit/shipment-common" "^1.0.2"
 
 "@curefit/shipment-models@^1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@curefit/shipment-models/-/shipment-models-1.23.0.tgz#19aa034868bc1f1c96fd94750d728eac3c469ac1"
-  integrity sha512-gZXdYvsCB72fiRMilKgJSJWQFO2ZGv3IuTuMQV10va3Z2+ZJcxByjUvfGbXoLJJuVWp3uUwvbcOsGQb3FBCMvg==
+  version "1.31.1"
+  resolved "https://npm.pkg.github.com/download/@curefit/shipment-models/1.31.1/b4e0d270f71a8aebaff51c9ec04016276723392b30717160a00406b638f7bd15#7a926ec75ef0fc41e9c65c675e583acf874ada97"
+  integrity sha512-i9OePWr+QHd2KL/XAHWzSM61vjLb/K+Nu38GYhjhzlzUsBoBx38IkmcKlzLwC1Pq2ClMY/dtBuDDvaxHl32LtQ==
   dependencies:
-    "@curefit/base" "^1.0.1"
-    "@curefit/base-common" "^1.0.1"
+    "@curefit/base" "^6.2.0"
+    "@curefit/base-common" "^1.5.0"
     "@curefit/delivery-models" "^1.1.0"
-    "@curefit/eat-common" "^5.13.1"
-    "@curefit/mongo-utils" "^1.0.0"
+    "@curefit/eat-common" "^7.18.0"
+    "@curefit/flash-common" "^1.11.4"
+    "@curefit/mongo-utils" "^3.5.2"
+    "@curefit/order-common" "^5.20.0"
     "@curefit/redis-utils" "^1.5.0"
+    "@curefit/schema-mongo" "^1.2.1"
     "@curefit/shipment-common" "^1.0.2"
     uuid "^3.3.2"
 
-"@curefit/user-common@2.1.1", "@curefit/user-common@2.3.0", "@curefit/user-common@^1.6.0", "@curefit/user-common@^2.1.1":
+"@curefit/social-common@1.2.0":
+  version "1.2.0"
+  resolved "https://npm.pkg.github.com/download/@curefit/social-common/1.2.0/fdd947554d68a1ce00ec6912dec6fce4046bc3afb2165379cddfcc3e7f7791e5#bd507e2263772a2f92067c5f1aa9731ef5b4b895"
+  integrity sha512-mSqyeLNrpDJqc/oSHf90jdDD+e4uI+f3ErR2qzh+LM28BjmUSUoG8/tekdwU61vG42a08InU3vJfy19/hxJOfg==
+
+"@curefit/user-common@2.1.1", "@curefit/user-common@2.3.0", "@curefit/user-common@^1.6.0":
   version "2.3.0"
-  resolved "https://registry.npmjs.org/@curefit/user-common/-/user-common-2.3.0.tgz#b5781ae85ad94accc41b58824675e7d80daf3cc8"
+  resolved "https://npm.pkg.github.com/download/@curefit/user-common/2.3.0/f4b12bb606fe5251a611d22e8f3720f05fd222dbb87dfa71437371678382d069#b5781ae85ad94accc41b58824675e7d80daf3cc8"
   integrity sha512-9uWUcPVh9mx4vloB/IDwijyT61o4BmQxzjY8cB3loQLe/ZLdk4BjlZdZZCYCMi4iBYnPB05AFKPfw7LaMQuc3Q==
   dependencies:
     "@curefit/base-common" "1.5.1"
 
 "@curefit/util-common@3.0.0":
   version "3.0.0"
-  resolved "https://registry.npmjs.org/@curefit/util-common/-/util-common-3.0.0.tgz#a66cde1e56be83ad48012122763eb835b95d93bf"
+  resolved "https://npm.pkg.github.com/download/@curefit/util-common/3.0.0/f6c22ade60f4211c12b4b329e4cc1b17ec7caf6e7f157ce42f4b323ee83c3c13#a66cde1e56be83ad48012122763eb835b95d93bf"
   integrity sha512-flvn2LHRP01lsuZryzN5yS/VOsv/ChCKqJD5ps/t7AmlHhgHsJEZFfazv1qTu+Y5VrSqsyiViKflyPK484tKag==
   dependencies:
     "@curefit/base-common" "^1.3.0"
@@ -625,7 +613,7 @@
 
 "@curefit/util-common@3.3.0":
   version "3.3.0"
-  resolved "https://registry.npmjs.org/@curefit/util-common/-/util-common-3.3.0.tgz#22a35db8c6125c4882e4be55d655cef24425c3ff"
+  resolved "https://npm.pkg.github.com/download/@curefit/util-common/3.3.0/4df5c9b45f7082bb485b173f6a2c8b0f88ea6482a385b68437f5f69a51dc5714#22a35db8c6125c4882e4be55d655cef24425c3ff"
   integrity sha512-4UPtcBEBiwTVzUwFp3C3Kh9EgsMgXiG1CHGLlNrIW5x9hEjq5GnICrUIgDPLGQWhxUTMAj0C4D7FLEi3muQ1wA==
   dependencies:
     "@curefit/base-common" "^1.3.0"
@@ -637,7 +625,7 @@
 
 "@curefit/util-common@^2.7.0", "@curefit/util-common@^2.9.3":
   version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@curefit/util-common/-/util-common-2.9.3.tgz#a5b493a840d44609183b9f5b4731605a02b3893d"
+  resolved "https://npm.pkg.github.com/download/@curefit/util-common/2.9.3/bad96447e34d1728e53fb415d13649fc51993a4d8ee036065eea67566277ba18#a5b493a840d44609183b9f5b4731605a02b3893d"
   integrity sha512-HZoJIlbnzry0d63il/bLzCcA0yol95SnRd9IJnaeaR0dWEsZuDsEhb7gy/3HxQejDMHwllRMpsYOvCX1R0cGCw==
   dependencies:
     "@curefit/base-common" "^1.3.0"
@@ -647,9 +635,9 @@
     moment-timezone "^0.5.23"
     shortid "^2.2.14"
 
-"@curefit/util-common@^3.1.3", "@curefit/util-common@^3.1.5":
+"@curefit/util-common@^3.1.3", "@curefit/util-common@^3.1.5", "@curefit/util-common@^3.6.3":
   version "3.6.3"
-  resolved "https://registry.npmjs.org/@curefit/util-common/-/util-common-3.6.3.tgz#f1fd99f096d4ddcda2319040b82df2e59a186333"
+  resolved "https://npm.pkg.github.com/download/@curefit/util-common/3.6.3/0951640100eb091dbfbb2453fe746e22395d9ae1da7b3249b704f8beae5a87be#f1fd99f096d4ddcda2319040b82df2e59a186333"
   integrity sha512-wvoO7XYWeY1S/pu+7VqRXwPOUSNdg+/wFdlM7tIDWdZZsIG10q3xoTAjzzdSnEXz9SC6DzCQ0s0UjGzXLHWkhQ==
   dependencies:
     "@curefit/base-common" "^1.3.0"
@@ -661,7 +649,7 @@
 
 "@curefit/vm-common@1.45.13":
   version "1.45.13"
-  resolved "https://registry.npmjs.org/@curefit/vm-common/-/vm-common-1.45.13.tgz#fdc0f6979db3422634d666f2d2ca9b927d5b4a07"
+  resolved "https://npm.pkg.github.com/download/@curefit/vm-common/1.45.13/d33e5c9a9fdda669f26021ad6db8f391cbb0f5f3d3393a6189a0706d2a150ebe#fdc0f6979db3422634d666f2d2ca9b927d5b4a07"
   integrity sha512-S8FAxp90a3JYra85Yojzu4bf2/y49H5+gnA23IHrLEVe4fc8bdi8USqsHnyDiYhDQQ00ugly7aseegAvOMDzfA==
   dependencies:
     "@curefit/base-common" "^1.2.0"
@@ -675,7 +663,7 @@
 
 "@curefit/vm-common@2.9.3":
   version "2.9.3"
-  resolved "https://registry.npmjs.org/@curefit/vm-common/-/vm-common-2.9.3.tgz#da6c3445014b2d248789199fcb39587e68a5d3a9"
+  resolved "https://npm.pkg.github.com/download/@curefit/vm-common/2.9.3/c9d9320e4e973ccb875ea080419c07c8eb698ba4158ef348b2ccd1376a3f753e#da6c3445014b2d248789199fcb39587e68a5d3a9"
   integrity sha512-j0UTG8KONehCCSOEuk3PiC0KiYksObKAG3ka1MqfdXL9/1a8QxcrxSJw+Ws7/bUaNFvAnHOIhCFUJn7B/VKZRw==
   dependencies:
     "@curefit/base-common" "^1.2.0"
@@ -689,7 +677,7 @@
 
 "@curefit/workflow-common@^0.0.4":
   version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@curefit/workflow-common/-/workflow-common-0.0.4.tgz#9baffb0e5ef7103c908e6332c4d23a3fd665b539"
+  resolved "https://npm.pkg.github.com/download/@curefit/workflow-common/0.0.4/e84fd2c5c8da3a54958b5a6f51effe73d6b8e4fd997dffb566a0958c4568d1f7#9baffb0e5ef7103c908e6332c4d23a3fd665b539"
   integrity sha512-ENZ6Yj7fXyyFQfx2ioHnRiOpIoH6P3vF/Wh8oJdOJCLnjshwRhcjatXOPP8zfeuododBC+7ghn2jPdWxA+14Rw==
   dependencies:
     barrelsby "^1.0.2"
@@ -698,7 +686,7 @@
 
 "@curefit/workflow@^0.2.0":
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@curefit/workflow/-/workflow-0.2.0.tgz#c56e2e0e4b0d0d298a60d85e0fcd33eb8e18763b"
+  resolved "https://npm.pkg.github.com/download/@curefit/workflow/0.2.0/0f988d33d5b519897ac37c23c22349dbd7ad8aca325aa5ba9ef2021b44542ff7#c56e2e0e4b0d0d298a60d85e0fcd33eb8e18763b"
   integrity sha512-6oZ56YEIV+DG6/yLy4JM3oO6wN12VMwDA82WEpzj5vEUsRCv1es5g+o7k609ZR4/iFISjX7XdDzr2XRxm74whw==
   dependencies:
     barrelsby "^1.0.2"
@@ -707,7 +695,7 @@
 
 "@curefit/workflow@^1.0.0":
   version "1.1.2"
-  resolved "https://registry.npmjs.org/@curefit/workflow/-/workflow-1.1.2.tgz#c075409d9c26b3ab2240527934e18b86d441c40f"
+  resolved "https://npm.pkg.github.com/download/@curefit/workflow/1.1.2/f187f6e99dbc3707780e97b6349273fd13693f510d88aa61a81830c4e7f966f5#c075409d9c26b3ab2240527934e18b86d441c40f"
   integrity sha512-J2VqoVYD6JzZu8EAOv/Imk8QA+Sq2wDgbskGSZFZPIrG55IyYktH5PkRuNCYE13+wC4ADttmhd3jESPUzRqw4A==
   dependencies:
     barrelsby "^1.0.2"
@@ -910,10 +898,23 @@ bintrees@1.0.1:
   resolved "https://registry.yarnpkg.com/bintrees/-/bintrees-1.0.1.tgz#0e655c9b9c2435eaab68bf4027226d2b55a34524"
   integrity sha1-DmVcm5wkNeqraL9AJyJtK1WjRSQ=
 
+bl@^2.2.0:
+  version "2.2.1"
+  resolved "https://registry.npmjs.org/bl/-/bl-2.2.1.tgz#8c11a7b730655c5d56898cdc871224f40fd901d5"
+  integrity sha512-6Pesp1w0DEX1N550i/uGV/TqucVL4AM/pgThFSN/Qq9si1/DF9aIHs1BxD8V/QU0HoeHO6cQRTAuYnLPKq1e4g==
+  dependencies:
+    readable-stream "^2.3.5"
+    safe-buffer "^5.1.1"
+
 bluebird@2.10.2:
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.10.2.tgz#024a5517295308857f14f91f1106fc3b555f446b"
   integrity sha1-AkpVFylTCIV/FPkfEQb8O1VfRGs=
+
+bluebird@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+  integrity sha512-MKiLiV+I1AA596t9w1sQJ8jkiSr5+ZKi0WKrYGUn6d1Fx+Ij4tIj+m2WMQSGczs5jZVxV339chE8iwk6F64wjA==
 
 bluebird@^3.3.3:
   version "3.7.1"
@@ -934,6 +935,11 @@ brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
+
+bson@^1.1.4:
+  version "1.1.5"
+  resolved "https://registry.npmjs.org/bson/-/bson-1.1.5.tgz#2aaae98fcdf6750c0848b0cba1ddec3c73060a34"
+  integrity sha512-kDuEzldR21lHciPQAIulLs1LZlCXdLziXI6Mb/TDkwXhb//UORJNPXgcRs2CuO4H0DcMkpfT3/ySsP3unoZjBg==
 
 bson@~1.0.4:
   version "1.0.9"
@@ -1110,6 +1116,13 @@ debug@2.2.0:
   dependencies:
     ms "0.7.1"
 
+debug@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
+
 debug@4, debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
@@ -1129,9 +1142,9 @@ decamelize@^1.2.0:
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
-denque@^1.1.0:
+denque@^1.1.0, denque@^1.4.1:
   version "1.4.1"
-  resolved "https://registry.yarnpkg.com/denque/-/denque-1.4.1.tgz#6744ff7641c148c3f8a69c307e51235c1f4a37cf"
+  resolved "https://registry.npmjs.org/denque/-/denque-1.4.1.tgz#6744ff7641c148c3f8a69c307e51235c1f4a37cf"
   integrity sha512-OfzPuSZKGcgr96rf1oODnfjqBFmr1DVoc/TrItj3Ohe0Ah1C5WX5Baquw/9U9KovnQ88EqmJbD66rKYUQYN1tQ==
 
 diff@^3.2.0:
@@ -1404,6 +1417,11 @@ kareem@1.2.1:
   resolved "https://registry.yarnpkg.com/kareem/-/kareem-1.2.1.tgz#acdb8c8119845834abbfa58ade1cf9dea63dc752"
   integrity sha1-rNuMgRmEWDSrv6WK3hz53qY9x1I=
 
+kareem@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.npmjs.org/kareem/-/kareem-2.3.1.tgz#def12d9c941017fabfb00f873af95e9c99e1be87"
+  integrity sha512-l3hLhffs9zqoDe8zjmb/mAN4B8VT3L56EUvKNqLFVs9YlFA+zx7ke1DO8STAdDyYNkeSo1nKmjuvQeI12So8Xw==
+
 kuler@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/kuler/-/kuler-2.0.0.tgz#e2c570a3800388fb44407e851531c1d670b061b3"
@@ -1497,6 +1515,11 @@ mem@^4.0.0:
     mimic-fn "^2.0.0"
     p-is-promise "^2.0.0"
 
+memory-pager@^1.0.2:
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz#d8751655d22d384682741c972f2c3d6dfa3e66b5"
+  integrity sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==
+
 mimic-fn@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
@@ -1550,7 +1573,20 @@ mongodb@2.2.25:
     mongodb-core "2.1.9"
     readable-stream "2.1.5"
 
-mongoose-legacy-pluralize@^1.0.2:
+mongodb@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.npmjs.org/mongodb/-/mongodb-3.6.0.tgz#babd7172ec717e2ed3f85e079b3f1aa29dce4724"
+  integrity sha512-/XWWub1mHZVoqEsUppE0GV7u9kanLvHxho6EvBxQbShXTKYF9trhZC2NzbulRGeG7xMJHD8IOWRcdKx5LPjAjQ==
+  dependencies:
+    bl "^2.2.0"
+    bson "^1.1.4"
+    denque "^1.4.1"
+    require_optional "^1.0.1"
+    safe-buffer "^5.1.2"
+  optionalDependencies:
+    saslprep "^1.0.0"
+
+mongoose-legacy-pluralize@1.0.2, mongoose-legacy-pluralize@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha512-Yo/7qQU4/EyIS8YDFSeenIvXxZN+ld7YdV9LqFVQJzTLye8unujAWPZ4NWKfFA+RNjh+wvTWKY9Z3E5XM6ZZiQ==
@@ -1578,10 +1614,32 @@ mongoose@4.9.1:
     regexp-clone "0.0.1"
     sliced "1.0.1"
 
+mongoose@^5.8.5:
+  version "5.10.1"
+  resolved "https://registry.npmjs.org/mongoose/-/mongoose-5.10.1.tgz#cdd083d72e19a5c4ff134171d7d1a9976bf01fe9"
+  integrity sha512-RtqhhYmfVBYVAGDibYNvZDFxi2cYUwjtgpekOOk9MhXsR414Uh1y/rzj3i9ymm5icFGoAm8OStQM46k+qv/VOg==
+  dependencies:
+    bson "^1.1.4"
+    kareem "2.3.1"
+    mongodb "3.6.0"
+    mongoose-legacy-pluralize "1.0.2"
+    mpath "0.7.0"
+    mquery "3.2.2"
+    ms "2.1.2"
+    regexp-clone "1.0.0"
+    safe-buffer "5.2.1"
+    sift "7.0.1"
+    sliced "1.0.1"
+
 mpath@0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/mpath/-/mpath-0.2.1.tgz#3a4e829359801de96309c27a6b2e102e89f9e96e"
   integrity sha1-Ok6Ck1mAHeljCcJ6ay4QLon56W4=
+
+mpath@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.npmjs.org/mpath/-/mpath-0.7.0.tgz#20e8102e276b71709d6e07e9f8d4d0f641afbfb8"
+  integrity sha512-Aiq04hILxhz1L+f7sjGyn7IxYzWm1zLNNXcfhDtx04kZ2Gk7uvFdgZ8ts1cWa/6d0TQmag2yR8zSGZUmp0tFNg==
 
 mpromise@0.5.5:
   version "0.5.5"
@@ -1598,6 +1656,17 @@ mquery@2.3.0:
     regexp-clone "0.0.1"
     sliced "0.0.5"
 
+mquery@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.npmjs.org/mquery/-/mquery-3.2.2.tgz#e1383a3951852ce23e37f619a9b350f1fb3664e7"
+  integrity sha512-XB52992COp0KP230I3qloVUbkLUxJIu328HBP2t2EsxSFtf4W1HPSOBWOXf1bqxK4Xbb66lfMJ+Bpfd9/yZE1Q==
+  dependencies:
+    bluebird "3.5.1"
+    debug "3.1.0"
+    regexp-clone "^1.0.0"
+    safe-buffer "5.1.2"
+    sliced "1.0.1"
+
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
@@ -1607,6 +1676,16 @@ ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
   integrity sha1-riXPJRKziFodldfwN4aNhDESR2U=
+
+ms@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+  integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 ms@^2.1.1:
   version "2.1.1"
@@ -1775,10 +1854,10 @@ readable-stream@2.1.5:
     string_decoder "~0.10.x"
     util-deprecate "~1.0.1"
 
-readable-stream@^2.3.6:
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
-  integrity sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
+readable-stream@^2.3.5, readable-stream@^2.3.7:
+  version "2.3.7"
+  resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
+  integrity sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
@@ -1788,10 +1867,10 @@ readable-stream@^2.3.6:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-readable-stream@^2.3.7:
-  version "2.3.7"
-  resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
-  integrity sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
+readable-stream@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
+  integrity sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
@@ -1853,6 +1932,11 @@ regexp-clone@0.0.1:
   resolved "https://registry.yarnpkg.com/regexp-clone/-/regexp-clone-0.0.1.tgz#a7c2e09891fdbf38fbb10d376fb73003e68ac589"
   integrity sha1-p8LgmJH9vzj7sQ03b7cwA+aKxYk=
 
+regexp-clone@1.0.0, regexp-clone@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz#222db967623277056260b992626354a04ce9bf63"
+  integrity sha512-TuAasHQNamyyJ2hb97IuBEif4qBHGjPHBS64sZwytpLEqtBQ1gPJTnOaQ6qmpET16cK14kkjbazl6+p0RRv0yw==
+
 request-ip@~2.0.1:
   version "2.0.2"
   resolved "https://registry.npmjs.org/request-ip/-/request-ip-2.0.2.tgz#deeae6d4af21768497db8cd05fa37143f8f1257e"
@@ -1870,7 +1954,7 @@ require-main-filename@^2.0.0:
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
   integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
 
-require_optional@~1.0.0:
+require_optional@^1.0.1, require_optional@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/require_optional/-/require_optional-1.0.1.tgz#4cf35a4247f64ca3df8c2ef208cc494b1ca8fc2e"
   integrity sha512-qhM/y57enGWHAe3v/NcwML6a3/vfESLe/sGM2dII+gEO0BpKRUkWZow/tyloNqJyN6kXSl3RyyM8Ll5D/sJP8g==
@@ -1906,10 +1990,22 @@ rollbar@^2.15.2:
   optionalDependencies:
     decache "^3.0.5"
 
-safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+
+safe-buffer@5.2.1, safe-buffer@^5.1.1, safe-buffer@^5.1.2:
+  version "5.2.1"
+  resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
+
+saslprep@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz#4c02f946b56cf54297e347ba1093e7acac4cf226"
+  integrity sha512-/MY/PEMbk2SuY5sScONwhUDsV2p77Znkb/q3nSVstq/yQzYJOH/Azh29p9oJLsl3LnQwSvZDKagDGBsBwSooag==
+  dependencies:
+    sparse-bitfield "^3.0.3"
 
 semver@^5.1.0, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.6.0:
   version "5.7.0"
@@ -1945,6 +2041,11 @@ shortid@^2.2.14:
   dependencies:
     nanoid "^2.0.0"
 
+sift@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.npmjs.org/sift/-/sift-7.0.1.tgz#47d62c50b159d316f1372f8b53f9c10cd21a4b08"
+  integrity sha512-oqD7PMJ+uO6jV9EQCl0LrRw1OwsiPsiFQR5AR30heR+4Dl7jBBbDLnNvWiak20tzZlSE1H7RB30SX/1j/YYT7g==
+
 signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
@@ -1971,6 +2072,13 @@ source-map@^0.5.7:
   version "0.5.7"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
+
+sparse-bitfield@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz#ff4ae6e68656056ba4b3e792ab3334d38273ca11"
+  integrity sha1-/0rm5oZWBWuks+eSqzM004JzyhE=
+  dependencies:
+    memory-pager "^1.0.2"
 
 sprintf-js@~1.0.2:
   version "1.0.3"
