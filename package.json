@@ -21,8 +21,7 @@
     "tslint": "tslint --project tsconfig.json",
     "tslint-fix": "tslint --project tsconfig.json --fix",
     "prepublish": "tsc",
-    "postversion": "git push origin master && git push origin master --tags && npm publish",
-    "postpublish": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
+    "postversion": "git push origin master && git push origin master --tags && npm publish"
   },
   "devDependencies": {
     "@types/mongodb": "^3.1.23",
