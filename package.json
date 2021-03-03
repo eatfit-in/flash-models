@@ -21,8 +21,7 @@
     "tslint": "tslint --project tsconfig.json",
     "tslint-fix": "tslint --project tsconfig.json --fix",
     "prepublish": "tsc",
-    "postversion": "git push origin master && git push origin master --tags && npm publish",
-    "postpublish": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
+    "postversion": "git push origin master && git push origin master --tags && npm publish"
   },
   "devDependencies": {
     "@types/mongodb": "^3.1.23",
@@ -32,18 +31,24 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "@curefit/base": "^1.0.1",
-    "@curefit/base-common": "^1.0.1",
-    "@curefit/delivery-models": "^1.1.0",
-    "@curefit/eat-common": "^5.13.1",
-    "@curefit/flash-common": "^1.18.0",
-    "@curefit/mongo-utils": "^1.0.1",
-    "@curefit/schema-mongo": "^1.0.2",
-    "@curefit/shipment-models": "^1.23.0",
-    "@curefit/workflow-common": "^0.0.4",
+    "@curefit/base": "^6.17.0",
+    "@curefit/base-common": "^2.13.0",
+    "@curefit/delivery-models": "^1.7.0",
+    "@curefit/eat-common": "^7.64.1",
+    "@curefit/flash-common": "^1.20.1",
+    "@curefit/mongo-utils": "3.24.2",
+    "@curefit/schema-mongo": "^1.6.0",
+    "@curefit/shipment-models": "^1.33.1",
+    "@curefit/workflow-common": "^1.1.2",
     "uuid": "^3.2.1"
   },
   "resolutions": {
-    "@curefit/flash-common": "^1.18.0"
+    "mongoose": "5.6.5",
+    "@curefit/flash-common": "^1.20.1",
+    "@curefit/shipment-common": "^3.4.0",
+    "@curefit/order-common": "6.3.0",
+    "@curefit/mongo-utils": "3.24.2",
+    "@curefit/delivery-models": "^1.7.0",
+    "@curefit/eat-common": "^7.64.1"
   }
 }
